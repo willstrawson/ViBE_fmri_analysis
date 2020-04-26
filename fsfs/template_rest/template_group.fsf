@@ -2483,83 +2483,83 @@ set fmri(ortho14.13) 0
 # Orthogonalise EV 14 wrt EV 14
 set fmri(ortho14.14) 0
 
-# Higher-level EV value for EV 13 and input 1
-set fmri(evg1.13) AVHF2_405627
+# Higher-level EV value for EV 14 and input 1
+set fmri(evg1.14) AVHF2_405627
 
-# Higher-level EV value for EV 13 and input 2
-set fmri(evg2.13) AVHF2_427272
+# Higher-level EV value for EV 14 and input 2
+set fmri(evg2.14) AVHF2_427272
 
-# Higher-level EV value for EV 13 and input 3
-set fmri(evg3.13) AVHF2_431537
+# Higher-level EV value for EV 14 and input 3
+set fmri(evg3.14) AVHF2_431537
 
-# Higher-level EV value for EV 13 and input 4
-set fmri(evg4.13) AVHF2_431996
+# Higher-level EV value for EV 14 and input 4
+set fmri(evg4.14) AVHF2_431996
 
-# Higher-level EV value for EV 13 and input 5
-set fmri(evg5.13) AVHF2_432672
+# Higher-level EV value for EV 14 and input 5
+set fmri(evg5.14) AVHF2_432672
 
-# Higher-level EV value for EV 13 and input 6
-set fmri(evg6.13) AVHF2_454395
+# Higher-level EV value for EV 14 and input 6
+set fmri(evg6.14) AVHF2_454395
 
-# Higher-level EV value for EV 13 and input 7
-set fmri(evg7.13) AVHF2_502603
+# Higher-level EV value for EV 14 and input 7
+set fmri(evg7.14) AVHF2_502603
 
-# Higher-level EV value for EV 13 and input 8
-set fmri(evg8.13) AVHF2_505145
+# Higher-level EV value for EV 14 and input 8
+set fmri(evg8.14) AVHF2_505145
 
-# Higher-level EV value for EV 13 and input 9
-set fmri(evg9.13) AVHF2_509886
+# Higher-level EV value for EV 14 and input 9
+set fmri(evg9.14) AVHF2_509886
 
-# Higher-level EV value for EV 13 and input 10
-set fmri(evg10.13) AVHF2_517878
+# Higher-level EV value for EV 14 and input 10
+set fmri(evg10.14) AVHF2_517878
 
-# Higher-level EV value for EV 13 and input 11
-set fmri(evg11.13) AVHF2_519292
+# Higher-level EV value for EV 14 and input 11
+set fmri(evg11.14) AVHF2_519292
 
-# Higher-level EV value for EV 13 and input 12
-set fmri(evg12.13) AVHF2_532224
+# Higher-level EV value for EV 14 and input 12
+set fmri(evg12.14) AVHF2_532224
 
-# Higher-level EV value for EV 13 and input 13
-set fmri(evg13.13) AVHF2_537166
+# Higher-level EV value for EV 14 and input 13
+set fmri(evg13.14) AVHF2_537166
 
-# Higher-level EV value for EV 13 and input 14
-set fmri(evg14.13) AVHF2_543052
+# Higher-level EV value for EV 14 and input 14
+set fmri(evg14.14) AVHF2_543052
 
-# Higher-level EV value for EV 13 and input 15
-set fmri(evg15.13) AVHF2_564947
+# Higher-level EV value for EV 14 and input 15
+set fmri(evg15.14) AVHF2_564947
 
-# Higher-level EV value for EV 13 and input 16
-set fmri(evg16.13) AVHF2_578243
+# Higher-level EV value for EV 14 and input 16
+set fmri(evg16.14) AVHF2_578243
 
-# Higher-level EV value for EV 13 and input 17
-set fmri(evg17.13) AVHF2_578336
+# Higher-level EV value for EV 14 and input 17
+set fmri(evg17.14) AVHF2_578336
 
-# Higher-level EV value for EV 13 and input 18
-set fmri(evg18.13) AVHF2_582656
+# Higher-level EV value for EV 14 and input 18
+set fmri(evg18.14) AVHF2_582656
 
-# Higher-level EV value for EV 13 and input 19
-set fmri(evg19.13) AVHF2_590716
+# Higher-level EV value for EV 14 and input 19
+set fmri(evg19.14) AVHF2_590716
 
-# Higher-level EV value for EV 13 and input 20
-set fmri(evg20.13) AVHF2_615987
+# Higher-level EV value for EV 14 and input 20
+set fmri(evg20.14) AVHF2_615987
 
-# Higher-level EV value for EV 13 and input 21
-set fmri(evg21.13) AVHF2_627475
+# Higher-level EV value for EV 14 and input 21
+set fmri(evg21.14) AVHF2_627475
 
-# Higher-level EV value for EV 13 and input 22
-set fmri(evg22.13) AVHF2_632010
+# Higher-level EV value for EV 14 and input 22
+set fmri(evg22.14) AVHF2_632010
 
-# Higher-level EV value for EV 13 and input 23
-set fmri(evg23.13) AVHF2_647760
+# Higher-level EV value for EV 14 and input 23
+set fmri(evg23.14) AVHF2_647760
 
-# Higher-level EV value for EV 13 and input 24
-set fmri(evg24.13) AVHF2_660783
+# Higher-level EV value for EV 14 and input 24
+set fmri(evg24.14) AVHF2_660783
 
-# Higher-level EV value for EV 13 and input 25
-set fmri(evg25.13) AVHF2_663544
+# Higher-level EV value for EV 14 and input 25
+set fmri(evg25.14) AVHF2_663544
 
-# Higher-level EV value for EV 13 and input 26
-set fmri(evg26.13) AVHF2_687197
+# Higher-level EV value for EV 14 and input 26
+set fmri(evg26.14) AVHF2_687197
 
 # Setup Orthogonalisation at higher level? 
 set fmri(level2orth) 0

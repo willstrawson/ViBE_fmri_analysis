@@ -30,7 +30,7 @@ set fmri(featwatcher_yn) 1
 set fmri(sscleanup_yn) 0
 
 # Output directory
-set fmri(outputdir) "/research/cisc1/projects/critchley_vibe/rs-sbfc/group/rA1"
+set fmri(outputdir) "/research/cisc1/projects/critchley_vibe/rs-sbfc/group"
 
 # TR(s)
 set fmri(tr) 3
@@ -269,7 +269,7 @@ set fmri(paradigm_hp) 100
 set fmri(ncopeinputs) 0
 
 # 4D AVW data or FEAT directory (1)
-set feat_files(1) "/its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-405627/lev_1/rA1+.feat/stats/cope1.nii.gz"
+set feat_files(1) "/research/cisc1/projects/critchley_vibe/rs-sbfc/sub-405627/lev_1/rA1+.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (2)
 set feat_files(2) "/its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-427272/lev_1/rA1+.feat/stats/cope1.nii.gz"
@@ -314,7 +314,7 @@ set feat_files(14) "/its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbf
 set feat_files(15) "/its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-564947/lev_1/rA1+.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (16)
-set feat_files(16) "/its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-578243/lev_1/rA1+.feat/stats/cope1.nii.gz"
+set feat_files(16) "/its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-578243/lev_1/rA1+.feat/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (17)
 set feat_files(17) "/its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-578336/lev_1/rA1+.feat/stats/cope1.nii.gz"
@@ -2483,83 +2483,83 @@ set fmri(ortho14.13) 0
 # Orthogonalise EV 14 wrt EV 14
 set fmri(ortho14.14) 0
 
-# Higher-level EV value for EV 13 and input 1
-set fmri(evg1.13) -0.058348116017744284
+# Higher-level EV value for EV 14 and input 1
+set fmri(evg1.14) -0.058348116017744284
 
-# Higher-level EV value for EV 13 and input 2
-set fmri(evg2.13) 0.5830610447726707
+# Higher-level EV value for EV 14 and input 2
+set fmri(evg2.14) 0.5830610447726707
 
-# Higher-level EV value for EV 13 and input 3
-set fmri(evg3.13) -0.058348116017744284
+# Higher-level EV value for EV 14 and input 3
+set fmri(evg3.14) -0.058348116017744284
 
-# Higher-level EV value for EV 13 and input 4
-set fmri(evg4.13) -0.48350305149506534
+# Higher-level EV value for EV 14 and input 4
+set fmri(evg4.14) -0.48350305149506534
 
-# Higher-level EV value for EV 13 and input 5
-set fmri(evg5.13) 0.4032923409450837
+# Higher-level EV value for EV 14 and input 5
+set fmri(evg5.14) 0.4032923409450837
 
-# Higher-level EV value for EV 13 and input 6
-set fmri(evg6.13) -0.058348116017744284
+# Higher-level EV value for EV 14 and input 6
+set fmri(evg6.14) -0.058348116017744284
 
-# Higher-level EV value for EV 13 and input 7
-set fmri(evg7.13) 0.8063923080426608
+# Higher-level EV value for EV 14 and input 7
+set fmri(evg7.14) 0.8063923080426608
 
-# Higher-level EV value for EV 13 and input 8
-set fmri(evg8.13) -0.058348116017744284
+# Higher-level EV value for EV 14 and input 8
+set fmri(evg8.14) -0.058348116017744284
 
-# Higher-level EV value for EV 13 and input 9
-set fmri(evg9.13) 0.2574135621150577
+# Higher-level EV value for EV 14 and input 9
+set fmri(evg9.14) 0.2574135621150577
 
-# Higher-level EV value for EV 13 and input 10
-set fmri(evg10.13) -0.9484859246432893
+# Higher-level EV value for EV 14 and input 10
+set fmri(evg10.14) -0.9484859246432893
 
-# Higher-level EV value for EV 13 and input 11
-set fmri(evg11.13) -0.058348116017744284
+# Higher-level EV value for EV 14 and input 11
+set fmri(evg11.14) -0.058348116017744284
 
-# Higher-level EV value for EV 13 and input 12
-set fmri(evg12.13) -1.3978538222832744
+# Higher-level EV value for EV 14 and input 12
+set fmri(evg12.14) -1.3978538222832744
 
-# Higher-level EV value for EV 13 and input 13
-set fmri(evg13.13) -0.058348116017744284
+# Higher-level EV value for EV 14 and input 13
+set fmri(evg13.14) -0.058348116017744284
 
-# Higher-level EV value for EV 13 and input 14
-set fmri(evg14.13) -0.058348116017744284
+# Higher-level EV value for EV 14 and input 14
+set fmri(evg14.14) -0.058348116017744284
 
-# Higher-level EV value for EV 13 and input 15
-set fmri(evg15.13) -1.4690842168985445
+# Higher-level EV value for EV 14 and input 15
+set fmri(evg15.14) -1.4690842168985445
 
-# Higher-level EV value for EV 13 and input 16
-set fmri(evg16.13) 0.7499822658489448
+# Higher-level EV value for EV 14 and input 16
+set fmri(evg16.14) 0.7499822658489448
 
-# Higher-level EV value for EV 13 and input 17
-set fmri(evg17.13) -0.058348116017744284
+# Higher-level EV value for EV 14 and input 17
+set fmri(evg17.14) -0.058348116017744284
 
-# Higher-level EV value for EV 13 and input 18
-set fmri(evg18.13) 2.4657289591865257
+# Higher-level EV value for EV 14 and input 18
+set fmri(evg18.14) 2.4657289591865257
 
-# Higher-level EV value for EV 13 and input 19
-set fmri(evg19.13) -0.7966544041143984
+# Higher-level EV value for EV 14 and input 19
+set fmri(evg19.14) -0.7966544041143984
 
-# Higher-level EV value for EV 13 and input 20
-set fmri(evg20.13) -0.058348116017744284
+# Higher-level EV value for EV 14 and input 20
+set fmri(evg20.14) -0.058348116017744284
 
-# Higher-level EV value for EV 13 and input 21
-set fmri(evg21.13) -1.1383512502049844
+# Higher-level EV value for EV 14 and input 21
+set fmri(evg21.14) -1.1383512502049844
 
-# Higher-level EV value for EV 13 and input 22
-set fmri(evg22.13) 1.6867045214027856
+# Higher-level EV value for EV 14 and input 22
+set fmri(evg22.14) 1.6867045214027856
 
-# Higher-level EV value for EV 13 and input 23
-set fmri(evg23.13) -1.2180975253540645
+# Higher-level EV value for EV 14 and input 23
+set fmri(evg23.14) -1.2180975253540645
 
-# Higher-level EV value for EV 13 and input 24
-set fmri(evg24.13) -0.058348116017744284
+# Higher-level EV value for EV 14 and input 24
+set fmri(evg24.14) -0.058348116017744284
 
-# Higher-level EV value for EV 13 and input 25
-set fmri(evg25.13) 1.0862605646586956
+# Higher-level EV value for EV 14 and input 25
+set fmri(evg25.14) 1.0862605646586956
 
-# Higher-level EV value for EV 13 and input 26
-set fmri(evg26.13) 1.3188800671037857
+# Higher-level EV value for EV 14 and input 26
+set fmri(evg26.14) 1.3188800671037857
 
 # Setup Orthogonalisation at higher level? 
 set fmri(level2orth) 0
