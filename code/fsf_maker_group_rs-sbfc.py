@@ -79,11 +79,13 @@ for i in srchs:
     # Add the specific values for each patient and variable
     replacements[i] = dfi[var].loc[dfi['patient'] == int(ps)]
     
-with open (template) as infile:
+with open (template, 'r') as infile:
     with open (fsf_out, 'w') as outfile:
         for line in infile:
+            print (line)
             for src, target in replacements.items():
-                line = line.replace(str(src),str(target))
+                #print (src, target)
+                line = line.replace(str(src),str(target.to_numpy()[0]))
             outfile.write(line)
 
 
