@@ -42,8 +42,16 @@ dfi[cols[3:]] = dfi[cols[3:]].sub(dfi[cols[3:]].mean(), axis='columns')
 # make column headers lowercase
 dfi.columns = [x.lower() for x in dfi.columns]
 
+# remove patient 54665 because they're not in analysis and mess up indexing
+dfi = dfi[dfi.patient != 54665]
 
 # ------ #
+
+#Read in fsf template
+template = '/Users/willstrawson/Documents/PhD/Rotation_2/fsfs/template_rest/pretemplate_group.fsf'
+# Specify name of output fsf
+fsf_out = '/Users/willstrawson/Documents/PhD/Rotation_2/fsfs/template_rest/rs-sbfc_group_template.fsf'
+
 
 # Need to engineer search terms that appear in fsf template
 # These are uppercase column names + _ sub number
@@ -62,16 +70,26 @@ for i in searchterms:
 
 replacements = {}
 for i in srchs:
-    replacements[i] = dfi.
+    # reenineer column header name from search terms
+    var = i[:-7].lower()
+    print (var)
+    # ... and the same for participant name
+    ps = i[-6:]
+    print (ps)
+    # Add the specific values for each patient and variable
+    replacements[i] = dfi[var].loc[dfi['patient'] == int(ps)]
+    
+with open (template) as infile:
+    with open (fsf_out, 'w') as outfile:
+        for line in infile:
+            for src, target in replacements.items():
+                line = line.replace(str(src),str(target))
+            outfile.write(line)
 
 
 
 
 
-#Read in fsf template
-template = '/Users/willstrawson/Documents/PhD/Rotation_2/fsfs/template_rest/pretemplate_group.fsf'
-# Specify name of output fsf
-fsf_out = '/Users/willstrawson/Documents/PhD/Rotation_2/fsfs/template_rest/rs-sbfc_group_template.fsf'
 
 
 
