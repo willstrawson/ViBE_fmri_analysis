@@ -21,21 +21,51 @@ dfff = pd.read_csv('/Users/willstrawson/Documents/PhD/Rotation_2/Data/vas_avh_pc
 # delete non rest rows
 dfff = dfff.loc[dfff['run']=='0']
 #change columns names 
-dff = dfff.rename({'MeanAVHduration':'avh_meandur', 'total_avh_duration':'avh_totaldur'}, axis=1)
+dff = dfff.rename({'MeanAVHduration':'avh_meandur', 'total_avh_duration':'avh_totaldur', 
+                   'BSIS_Voices':'BSIS_V', 'BAVQ_Persecutory':'BAVQ_P'}, axis=1)
 # keep only columns which will be used as a regressor, just for tidyness 
 cols = ['patient_run','patient','run','avh_instances','avh_meandur','avh_totaldur',
          'MWF1','MWF2','MWF3','MWF4','MWF5','MWF6','AVHF1','AVHF2',
-         'AVHF1_2','AVHF2_2','BSIS_Voices','BAVQ_Persecutory']
+         'AVHF1_2','AVHF2_2','BSIS_V','BAVQ_P']
 
 df = dff[cols]
 
 
 df[cols[1:]] = df[cols[1:]].apply(pd.to_numeric, errors='coerce')
 
-# replace NaNs
-df.fillna(df.mean())
+# replace NaNsand create new imputed df
+dfi = df.fillna(df.mean())
+
+# Demean columns
+dfi[cols[3:]] = dfi[cols[3:]].sub(dfi[cols[3:]].mean(), axis='columns')
+
+# make column headers lowercase
+dfi.columns = [x.lower() for x in dfi.columns]
+
 
 # ------ #
+
+# Need to engineer search terms that appear in fsf template
+# These are uppercase column names + _ sub number
+# Engineer these using the existing column names 
+searchterms = []
+# Add uppercase EV names
+[searchterms.append(i.upper()) for i in dfi.columns[3:]]
+# Add patient number after each variable name 
+# Thislist should contain all the possible search terms present in the fsf 
+srchs = []
+for i in searchterms:
+    for n in dfi['patient']:
+        srchs.append(str(i) + '_' + str(n))  
+        
+# Create replacements dict where key = searchterms and value is number from dfi
+
+replacements = {}
+for i in srchs:
+    replacements[i] = dfi.
+
+
+
 
 
 #Read in fsf template
@@ -45,4 +75,3 @@ fsf_out = '/Users/willstrawson/Documents/PhD/Rotation_2/fsfs/template_rest/rs-sb
 
 
 
-# TODO : Demean 
