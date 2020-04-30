@@ -314,7 +314,7 @@ set feat_files(14) "/its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbf
 set feat_files(15) "/its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-564947/lev_1/rA1+.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (16)
-set feat_files(16) "/its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-578243/lev_1/rA1+.feat/cope1.nii.gz"
+set feat_files(16) "/its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-578243/lev_1/rA1+.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (17)
 set feat_files(17) "/its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-578336/lev_1/rA1+.feat/stats/cope1.nii.gz"
@@ -332,7 +332,7 @@ set feat_files(20) "/its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbf
 set feat_files(21) "/its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-627475/lev_1/rA1+.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (22)
-set feat_files(22) "/its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-632010/lev_1/rA1+.feat/stats/cope1.nii.gzz"
+set feat_files(22) "/its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-632010/lev_1/rA1+.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (23)
 set feat_files(23) "/its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-647760/lev_1/rA1+.feat/stats/cope1.nii.gz"
