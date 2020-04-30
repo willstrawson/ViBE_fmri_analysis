@@ -927,82 +927,82 @@ set fmri(ortho5.4) 0
 set fmri(ortho5.5) 0
 
 # Higher-level EV value for EV 5 and input 1
-set fmri(evg1.5) -0.20455729573125275
+set fmri(evg1.5) MEAN_FD_405627
 
 # Higher-level EV value for EV 5 and input 2
-set fmri(evg2.5) -0.2773726223066407
+set fmri(evg2.5) MEAN_FD_427272
 
 # Higher-level EV value for EV 5 and input 3
-set fmri(evg3.5) -0.2686215790185797
+set fmri(evg3.5) MEAN_FD_431537
 
 # Higher-level EV value for EV 5 and input 4
-set fmri(evg4.5) 0.3381354078319993
+set fmri(evg4.5) MEAN_FD_431996
 
 # Higher-level EV value for EV 5 and input 5
-set fmri(evg5.5) -1.1234127797571558
+set fmri(evg5.5) MEAN_FD_432672
 
 # Higher-level EV value for EV 5 and input 6
-set fmri(evg6.5) -1.6018966342501457
+set fmri(evg6.5) MEAN_FD_454395
 
 # Higher-level EV value for EV 5 and input 7
-set fmri(evg7.5) -0.5337316985025778
+set fmri(evg7.5) MEAN_FD_502603
 
 # Higher-level EV value for EV 5 and input 8
-set fmri(evg8.5) -0.26893972138551375
+set fmri(evg8.5) MEAN_FD_505145
 
 # Higher-level EV value for EV 5 and input 9
-set fmri(evg9.5) 0.6349482033191642
+set fmri(evg9.5) MEAN_FD_509886
 
 # Higher-level EV value for EV 5 and input 10
-set fmri(evg10.5) -0.3588812756506937
+set fmri(evg10.5) MEAN_FD_517878
 
 # Higher-level EV value for EV 5 and input 11
-set fmri(evg11.5) 1.2919688292642344
+set fmri(evg11.5) MEAN_FD_519292
 
 # Higher-level EV value for EV 5 and input 12
-set fmri(evg12.5) 0.3528161334105742
+set fmri(evg12.5) MEAN_FD_532224
 
 # Higher-level EV value for EV 5 and input 13
-set fmri(evg13.5) -1.0317040767371957
+set fmri(evg13.5) MEAN_FD_537166
 
 # Higher-level EV value for EV 5 and input 14
-set fmri(evg14.5) 0.5830881258571623
+set fmri(evg14.5) MEAN_FD_543052
 
 # Higher-level EV value for EV 5 and input 15
-set fmri(evg15.5) 1.1836199842577844
+set fmri(evg15.5) MEAN_FD_564947
 
 # Higher-level EV value for EV 5 and input 16
-set fmri(evg16.5) -1.8705152166153256
+set fmri(evg16.5) MEAN_FD_578243
 
 # Higher-level EV value for EV 5 and input 17
-set fmri(evg17.5) 0.5843945050982713
+set fmri(evg17.5) MEAN_FD_578336
 
 # Higher-level EV value for EV 5 and input 18
-set fmri(evg18.5) 0.47299196622295325
+set fmri(evg18.5) MEAN_FD_582656
 
 # Higher-level EV value for EV 5 and input 19
-set fmri(evg19.5) -1.9942901782814655
+set fmri(evg19.5) MEAN_FD_590716
 
 # Higher-level EV value for EV 5 and input 20
-set fmri(evg20.5) 1.9187158444835641
+set fmri(evg20.5) MEAN_FD_615987
 
 # Higher-level EV value for EV 5 and input 21
-set fmri(evg21.5) -0.11882805194932175
+set fmri(evg21.5) MEAN_FD_627475
 
 # Higher-level EV value for EV 5 and input 22
-set fmri(evg22.5) -0.36815972468685976
+set fmri(evg22.5) MEAN_FD_632010
 
 # Higher-level EV value for EV 5 and input 23
-set fmri(evg23.5) 0.18939685525086425
+set fmri(evg23.5) MEAN_FD_647760
 
 # Higher-level EV value for EV 5 and input 24
-set fmri(evg24.5) -0.13216708169554275
+set fmri(evg24.5) MEAN_FD_660783
 
 # Higher-level EV value for EV 5 and input 25
-set fmri(evg25.5) 0.32101850880128724
+set fmri(evg25.5) MEAN_FD_663544
 
 # Higher-level EV value for EV 5 and input 26
-set fmri(evg26.5) -0.34705045628230174
+set fmri(evg26.5) MEAN_FD_687197
 
 # Setup Orthogonalisation at higher level? 
 set fmri(level2orth) 0
