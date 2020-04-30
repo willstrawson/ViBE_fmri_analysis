@@ -314,7 +314,7 @@ set feat_files(14) "/its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbf
 set feat_files(15) "/its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-564947/lev_1/rA1+.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (16)
-set feat_files(16) "/its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-578243/lev_1/rA1+.feat/cope1.nii.gz"
+set feat_files(16) "/its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-578243/lev_1/rA1+.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (17)
 set feat_files(17) "/its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-578336/lev_1/rA1+.feat/stats/cope1.nii.gz"
@@ -332,7 +332,7 @@ set feat_files(20) "/its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbf
 set feat_files(21) "/its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-627475/lev_1/rA1+.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (22)
-set feat_files(22) "/its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-632010/lev_1/rA1+.feat/stats/cope1.nii.gzz"
+set feat_files(22) "/its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-632010/lev_1/rA1+.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (23)
 set feat_files(23) "/its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-647760/lev_1/rA1+.feat/stats/cope1.nii.gz"
@@ -478,7 +478,7 @@ set fmri(evg25.1) 1.0
 set fmri(evg26.1) 1.0
 
 # EV 2 title
-set fmri(evtitle2) "sdt_c"
+set fmri(evtitle2) "bsis_v"
 
 # Basic waveform shape (EV 2)
 # 0 : Square
@@ -528,82 +528,82 @@ set fmri(ortho2.3) 0
 set fmri(ortho2.4) 0
 
 # Higher-level EV value for EV 2 and input 1
-set fmri(evg1.2) -0.3719279490510115
+set fmri(evg1.2) 3.770833333333334
 
 # Higher-level EV value for EV 2 and input 2
-set fmri(evg2.2) -1.6653345369377348e-16
+set fmri(evg2.2) 3.770833333333334
 
 # Higher-level EV value for EV 2 and input 3
-set fmri(evg3.2) 0.16247103152623846
+set fmri(evg3.2) -0.22916666666666607
 
 # Higher-level EV value for EV 2 and input 4
-set fmri(evg4.2) 0.5676818635262384
+set fmri(evg4.2) -4.229166666666666
 
 # Higher-level EV value for EV 2 and input 5
-set fmri(evg5.2) -1.6653345369377348e-16
+set fmri(evg5.2) 3.770833333333334
 
 # Higher-level EV value for EV 2 and input 6
-set fmri(evg6.2) -1.6653345369377348e-16
+set fmri(evg6.2) -0.22916666666666607
 
 # Higher-level EV value for EV 2 and input 7
-set fmri(evg7.2) -0.02653337047376156
+set fmri(evg7.2) 1.770833333333334
 
 # Higher-level EV value for EV 2 and input 8
-set fmri(evg8.2) 0.03154256052623847
+set fmri(evg8.2) 0.7708333333333339
 
 # Higher-level EV value for EV 2 and input 9
-set fmri(evg9.2) 0.3200365305262385
+set fmri(evg9.2) -2.229166666666666
 
 # Higher-level EV value for EV 2 and input 10
-set fmri(evg10.2) -1.6653345369377348e-16
+set fmri(evg10.2) 0.7708333333333339
 
 # Higher-level EV value for EV 2 and input 11
-set fmri(evg11.2) 0.0012337835262384855
+set fmri(evg11.2) -5.229166666666666
 
 # Higher-level EV value for EV 2 and input 12
-set fmri(evg12.2) 0.4595610105262385
+set fmri(evg12.2) -2.229166666666666
 
 # Higher-level EV value for EV 2 and input 13
-set fmri(evg13.2) 0.09687756452623845
+set fmri(evg13.2) -5.229166666666666
 
 # Higher-level EV value for EV 2 and input 14
-set fmri(evg14.2) 0.09059158052623846
+set fmri(evg14.2) 0.7708333333333339
 
 # Higher-level EV value for EV 2 and input 15
-set fmri(evg15.2) 0.23986922152623846
+set fmri(evg15.2) -0.22916666666666607
 
 # Higher-level EV value for EV 2 and input 16
-set fmri(evg16.2) -1.6653345369377348e-16
+set fmri(evg16.2) 8.881784197001252e-16
 
 # Higher-level EV value for EV 2 and input 17
-set fmri(evg17.2) -1.6653345369377348e-16
+set fmri(evg17.2) -0.22916666666666607
 
 # Higher-level EV value for EV 2 and input 18
-set fmri(evg18.2) -1.6653345369377348e-16
+set fmri(evg18.2) -1.229166666666666
 
 # Higher-level EV value for EV 2 and input 19
-set fmri(evg19.2) -0.06062786547376156
+set fmri(evg19.2) -0.22916666666666607
 
 # Higher-level EV value for EV 2 and input 20
-set fmri(evg20.2) -0.4484793134737615
+set fmri(evg20.2) 3.770833333333334
 
 # Higher-level EV value for EV 2 and input 21
-set fmri(evg21.2) -0.24281017647376152
+set fmri(evg21.2) 1.770833333333334
 
 # Higher-level EV value for EV 2 and input 22
-set fmri(evg22.2) 0.2655007985262384
+set fmri(evg22.2) 1.770833333333334
 
 # Higher-level EV value for EV 2 and input 23
-set fmri(evg23.2) -1.6653345369377348e-16
+set fmri(evg23.2) 1.770833333333334
 
 # Higher-level EV value for EV 2 and input 24
-set fmri(evg24.2) 0.16535984252623845
+set fmri(evg24.2) -0.22916666666666607
 
 # Higher-level EV value for EV 2 and input 25
-set fmri(evg25.2) 0.10923504852623846
+set fmri(evg25.2) -0.22916666666666607
 
 # Higher-level EV value for EV 2 and input 26
-set fmri(evg26.2) 0.06399359252623846
+set fmri(evg26.2) -1.229166666666666
 
 # EV 3 title
 set fmri(evtitle3) "age"
@@ -970,7 +970,7 @@ set fmri(con_real1.4) 0
 set fmri(conpic_real.2) 1
 
 # Title for contrast_real 2
-set fmri(conname_real.2) "sdt_c"
+set fmri(conname_real.2) "bsis_v"
 
 # Real contrast_real vector 2 element 1
 set fmri(con_real2.1) 0
