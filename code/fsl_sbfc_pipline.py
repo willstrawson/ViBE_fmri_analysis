@@ -9,7 +9,7 @@ import subprocess
 import os
 import glob
 
-
+'''
 
 # Note: maskpath needs to == to the binary version!
 
@@ -31,7 +31,7 @@ timeseries('/its/home/ws231/Desktop/cisc1/projects/critchley_vibe/masks/task_clu
 timeseries('/its/home/ws231/Desktop/cisc1/projects/critchley_vibe/masks/task_cluster_2_smooth_5mm_thr_0.19_bin.nii.gz','task_cluster_2_rA1')
 timeseries('/its/home/ws231/Desktop/cisc1/projects/critchley_vibe/masks/task_cluster_1_smooth_5mm_thr_0.10_bin.nii.gz','task_cluster_1_rPCG')
 
-'''
+
 
 # ------------------------------------------------#
 
@@ -56,10 +56,12 @@ def lev_1_fsfmaker(maskname):
 	    ntime = os.popen('fslnvols {}'.format(dr)).read().rstrip()
 	    print (ntime)
 
+            # Get mask name from input file path 
+
 	    replacements = {'SUBNUM': subnum, 'NTPTS':ntime, 'MSKNAME':maskname}
 
 	    with open (template) as infile:
-		with open (fsfdir + 'sub-{}_{}.fsf'.format(subnum, maskname), 'w') as outfile:
+		with open (fsfdir + '{}/sub-{}_{}.fsf'.format(maskname,subnum, maskname), 'w') as outfile:
 		    for line in infile:
 		        for src, target in replacements.items():
 		            line = line.replace(src,target)
@@ -67,20 +69,32 @@ def lev_1_fsfmaker(maskname):
 
 	print ('num files read in:', len(subdirs))
 
-lev_1_fsfmaker(maskname)
+lev_1_fsfmaker('task_cluster_3_ACC')
+lev_1_fsfmaker('task_cluster_2_rA1')
+lev_1_fsfmaker('task_cluster_1_PCG')
 
+
+'''
 # ------------------------------------------------#
 
 # FIRST LEVEL FEAT RUNNER 
 
 #run all fsf files through FEAT 
 
-fls = glob.glob('/its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/fsfs/sub-*_{}.fsf'.format(maskname))
+def lev1_feat(maskname):
+    # Get paths to fsfs for one mask at a time
+    fls = glob.glob('/its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/fsfs/{}/sub-*_{}.fsf'.format(maskname, maskname))
 
-for i in fls:
-    print ('Running FEAT for:', os.path.split(i)[1])
-    subprocess.call(["feat",i])
+    for i in fls:
+        print ('Running FEAT for:', os.path.split(i)[1])
+        subprocess.call(["feat",i])
 
+lev1_feat('task_cluster_3_ACC')
+lev1_feat('task_cluster_2_rA1')
+lev1_feat('task_cluster_1_PCG')
+
+
+'''
 # -----------------------------------------------#
 # TODO : Include reg work around 
 #------------------------------------------------#
@@ -121,9 +135,9 @@ for f in fls:
     print ('Running group feat for {}'.format(os.path.split(f)[1]))
     subprocess.call(["feat",f])
     
-
-
 '''
+
+
 
 
 
