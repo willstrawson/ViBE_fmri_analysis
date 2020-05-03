@@ -8,7 +8,7 @@
 import subprocess
 import os
 import glob
-maskname = 'ACC'
+
 
 
 # Note: maskpath needs to == to the binary version!
