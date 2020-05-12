@@ -28,16 +28,23 @@ for i in fls:
     # loop through each percentile bin - should be 20 loops 
     for b in bins.items():
         print ('thresholding {} into the {} bin'.format(os.path.split(i)[1], b))
+        
         #Create output name for lower thresholded imags
         outname1 = i.replace('.nii.gz', '{}.nii.gz'.format(str(b[0]).strip().replace(',','')))
-        # lower threshold first i.e. 0 anything below this range
-        # don't binarize or else all will get removed inthe next call!
-        subprocess.call(['fslmaths', i, '-thrp', str(b[0]), outname1])
+        # lower threshold first the orignal image i.e. 0 anything below this range
+        subprocess.call(['fslmaths', i, '-thrp', str(b[0]), '-bin', outname1])
+        
         # Create final upper threshold name
-        outname2 = i.replace('.nii.gz', '{}.nii.gz'.format(str(b).strip().replace(',','')))
-        # then upper threshold i.e. 0 anything above this range 
-        subprocess.call(['fslmaths', outname1, '-uthrp', str(b[1]), '-bin', outname2])
-        #then delete the intermediary outname1 mask 
-        os.remove(outname1)
+        outname2 = i.replace('.nii.gz', '{}.nii.gz'.format(str(b[1]).strip().replace(',','')))
+        # then upper threshold i.e. 0 anything above this range the original image
+        subprocess.call(['fslmaths', i, '-uthrp', str(b[1]), '-bin', outname2])
+        
+        #Create final mask name
+        outname3 = i.replace('.nii.gz', '{}.nii.gz'.format(str(b).strip().replace(',','')))
+        # Multiply these two masks together
+        # they will only both == 1 in the bin range
+        subprocess.call(['fslmaths', outname1, '-mul', outname2, outname3])
+        
+        
     
     
