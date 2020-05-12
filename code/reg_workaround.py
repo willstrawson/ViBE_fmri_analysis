@@ -7,7 +7,7 @@ src = '/usr/local/fsl/etc/flirtsch/ident.mat'
 # make reg directories 
 
 # location of the first level feats/reg directories 
-fls = glob.glob('/its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-*/lev_1/ACC.feat/')
+fls = glob.glob('/its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-*/lev_1/task_cluster_1_rPCG.feat/')
 
 for i in fls:
     os.mkdir(i+'reg/')
@@ -15,11 +15,9 @@ for i in fls:
     copyfile(src, dst)
 print (src, dst)
 
+# now move mean_funk
 
-# location of feats (but not lower reg/ directory)
-fls2 = glob.glob('/its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-*/lev_1/ACC.feat/')
-
-for i in fls2:
+for i in fls:
     src = i+'mean_func.nii.gz'
     dst = i+'reg/standard.nii.gz'
     try:

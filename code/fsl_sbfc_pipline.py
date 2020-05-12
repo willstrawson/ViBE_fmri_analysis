@@ -69,12 +69,12 @@ def lev_1_fsfmaker(maskname):
 
 	print ('num files read in:', len(subdirs))
 
-lev_1_fsfmaker('task_cluster_3_ACC')
-lev_1_fsfmaker('task_cluster_2_rA1')
-lev_1_fsfmaker('task_cluster_1_PCG')
+
+lev_1_fsfmaker('task_cluster_1_rPCG')
 
 
-'''
+
+
 # ------------------------------------------------#
 
 # FIRST LEVEL FEAT RUNNER 
@@ -89,55 +89,59 @@ def lev1_feat(maskname):
         print ('Running FEAT for:', os.path.split(i)[1])
         subprocess.call(["feat",i])
 
-lev1_feat('task_cluster_3_ACC')
-lev1_feat('task_cluster_2_rA1')
-lev1_feat('task_cluster_1_PCG')
+# TODO: run 1st level for rPCG
+lev1_feat('task_cluster_1_rPCG')
 
 
-'''
+
 # -----------------------------------------------#
 # TODO : Include reg work around 
 #------------------------------------------------#
 
-# GROUP LEVEL FEAT RUNNER 
-
-# First replace mask name in templates
-maskname = ('ACC')
-	
-#List all fsfs in the directory containing all the post-template group fsfs
-fls = glob.glob('/its/home/ws231/Desktop/cisc1/projects/critchley_vibe/fsfs/template_rest/group_fsfs/rA1/*.fsf')
-# Specify output dir for new fsf
-out = '/its/home/ws231/Desktop/cisc1/projects/critchley_vibe/fsfs/template_rest/group_fsfs/{}/'.format(maskname)
-# replace rA1 with mask name
-replacements = {'rA1+':maskname,'rA1':maskname}
-
-
-# Loop through each fsfs
-for f in fls:
-    print(f)
-    with open(f) as infile:
-        with open (out + os.path.split(f)[1], 'w') as outfile:
-	    for line in infile:
-		for src, target in replacements.items():
-		    line = line.replace(src, target)
-		outfile.write(line)
-	# add new fsfs to outfsfs
-
-
-# now run fsfs - loop through newly created files
-
-fls = glob.glob('/its/home/ws231/Desktop/cisc1/projects/critchley_vibe/fsfs/template_rest/group_fsfs/ACC/*.fsf')
-
-print (fls)
-
-for f in fls:
-    print (f)
-    print ('Running group feat for {}'.format(os.path.split(f)[1]))
-    subprocess.call(["feat",f])
-    
 '''
 
+# TODO: use a REAL templatenot thisrA1 bs
 
+# GROUP LEVEL FEAT RUNNER 
+def group(maskname):
+	#List all thetemplate group fsfs in the MASKNAME/ directory 
+	fls = glob.glob('/its/home/ws231/Desktop/cisc1/projects/critchley_vibe/fsfs/template_rest/group_fsfs/MASKNAME/*.fsf')
+	# Specify output dir for new fsf
+	out = '/its/home/ws231/Desktop/cisc1/projects/critchley_vibe/fsfs/template_rest/group_fsfs/{}/'.format(maskname)
+	# make directory if it doesnt exist 
+	if os.path.exists(out) == False:
+	    os.mkdir(out)
+	else:
+	    print (out, ': Already exists :-) ')
+
+	# replace MASKNAME with mask name
+	replacements = {'MASKNAME':maskname}
+
+
+	# Loop through each fsfs
+	for f in fls:
+	    print(f)
+	    with open(f) as infile:
+		with open (out + os.path.split(f)[1], 'w') as outfile:
+		    for line in infile:
+			for src, target in replacements.items():
+			    line = line.replace(src, target)
+			outfile.write(line)
+		# add new fsfs to outfsfs
+
+
+	# now run fsfs - loop through newly created files
+	fls = glob.glob('/its/home/ws231/Desktop/cisc1/projects/critchley_vibe/fsfs/template_rest/group_fsfs/{}/*.fsf'.format(maskname))
+	print (fls)
+	for f in fls:
+	    print (f)
+	    print ('Running group feat for {}'.format(os.path.split(f)[1]))
+	    subprocess.call(["feat",f])
+    
+# Run the function!
+
+group('task_cluster_2_rA1')
+group ('task_cluster_1_rPCG')
 
 
 
