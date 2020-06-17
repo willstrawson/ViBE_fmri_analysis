@@ -1,0 +1,145 @@
+</pre><hr>Higher-level input files preparation<br><pre>
+
+/usr/local/fsl/bin/featregapply /research/cisc1/projects/critchley_vibe/rs-sbfc/sub-405627/lev_1/task_cluster_2_rA1.feat
+
+/usr/local/fsl/bin/featregapply /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-427272/lev_1/task_cluster_2_rA1.feat
+
+/usr/local/fsl/bin/featregapply /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-431537/lev_1/task_cluster_2_rA1.feat
+
+/usr/local/fsl/bin/featregapply /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-431996/lev_1/task_cluster_2_rA1.feat
+
+/usr/local/fsl/bin/featregapply /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-432672/lev_1/task_cluster_2_rA1.feat
+
+/usr/local/fsl/bin/featregapply /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-454395/lev_1/task_cluster_2_rA1.feat
+
+/usr/local/fsl/bin/featregapply /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-502603/lev_1/task_cluster_2_rA1.feat
+
+/usr/local/fsl/bin/featregapply /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-505145/lev_1/task_cluster_2_rA1.feat
+
+/usr/local/fsl/bin/featregapply /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-509886/lev_1/task_cluster_2_rA1.feat
+
+/usr/local/fsl/bin/featregapply /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-517878/lev_1/task_cluster_2_rA1.feat
+
+/usr/local/fsl/bin/featregapply /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-519292/lev_1/task_cluster_2_rA1.feat
+
+/usr/local/fsl/bin/featregapply /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-532224/lev_1/task_cluster_2_rA1.feat
+
+/usr/local/fsl/bin/featregapply /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-537166/lev_1/task_cluster_2_rA1.feat
+
+/usr/local/fsl/bin/featregapply /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-543052/lev_1/task_cluster_2_rA1.feat
+
+/usr/local/fsl/bin/featregapply /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-564947/lev_1/task_cluster_2_rA1.feat
+
+/usr/local/fsl/bin/featregapply /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-578243/lev_1/task_cluster_2_rA1.feat
+
+/usr/local/fsl/bin/featregapply /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-578336/lev_1/task_cluster_2_rA1.feat
+
+/usr/local/fsl/bin/featregapply /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-582656/lev_1/task_cluster_2_rA1.feat
+
+/usr/local/fsl/bin/featregapply /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-590716/lev_1/task_cluster_2_rA1.feat
+
+/usr/local/fsl/bin/featregapply /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-615987/lev_1/task_cluster_2_rA1.feat
+
+/usr/local/fsl/bin/featregapply /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-627475/lev_1/task_cluster_2_rA1.feat
+
+/usr/local/fsl/bin/featregapply /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-632010/lev_1/task_cluster_2_rA1.feat
+
+/usr/local/fsl/bin/featregapply /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-647760/lev_1/task_cluster_2_rA1.feat
+
+/usr/local/fsl/bin/featregapply /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-660783/lev_1/task_cluster_2_rA1.feat
+
+/usr/local/fsl/bin/featregapply /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-663544/lev_1/task_cluster_2_rA1.feat
+
+/usr/local/fsl/bin/featregapply /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-687197/lev_1/task_cluster_2_rA1.feat
+
+/usr/local/fsl/bin/fslmaths /research/cisc1/projects/critchley_vibe/rs-sbfc/sub-405627/lev_1/task_cluster_2_rA1.feat/reg/standard bg_image
+
+/usr/local/fsl/bin/fslmerge -t mask  /research/cisc1/projects/critchley_vibe/rs-sbfc/sub-405627/lev_1/task_cluster_2_rA1.feat/reg_standard/mask /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-427272/lev_1/task_cluster_2_rA1.feat/reg_standard/mask /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-431537/lev_1/task_cluster_2_rA1.feat/reg_standard/mask /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-431996/lev_1/task_cluster_2_rA1.feat/reg_standard/mask /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-432672/lev_1/task_cluster_2_rA1.feat/reg_standard/mask /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-454395/lev_1/task_cluster_2_rA1.feat/reg_standard/mask /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-502603/lev_1/task_cluster_2_rA1.feat/reg_standard/mask /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-505145/lev_1/task_cluster_2_rA1.feat/reg_standard/mask /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-509886/lev_1/task_cluster_2_rA1.feat/reg_standard/mask /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-517878/lev_1/task_cluster_2_rA1.feat/reg_standard/mask /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-519292/lev_1/task_cluster_2_rA1.feat/reg_standard/mask /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-532224/lev_1/task_cluster_2_rA1.feat/reg_standard/mask /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-537166/lev_1/task_cluster_2_rA1.feat/reg_standard/mask /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-543052/lev_1/task_cluster_2_rA1.feat/reg_standard/mask /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-564947/lev_1/task_cluster_2_rA1.feat/reg_standard/mask /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-578243/lev_1/task_cluster_2_rA1.feat/reg_standard/mask /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-578336/lev_1/task_cluster_2_rA1.feat/reg_standard/mask /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-582656/lev_1/task_cluster_2_rA1.feat/reg_standard/mask /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-590716/lev_1/task_cluster_2_rA1.feat/reg_standard/mask /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-615987/lev_1/task_cluster_2_rA1.feat/reg_standard/mask /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-627475/lev_1/task_cluster_2_rA1.feat/reg_standard/mask /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-632010/lev_1/task_cluster_2_rA1.feat/reg_standard/mask /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-647760/lev_1/task_cluster_2_rA1.feat/reg_standard/mask /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-660783/lev_1/task_cluster_2_rA1.feat/reg_standard/mask /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-663544/lev_1/task_cluster_2_rA1.feat/reg_standard/mask /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-687197/lev_1/task_cluster_2_rA1.feat/reg_standard/mask
+
+mkdir -p inputreg
+
+/usr/local/fsl/bin/fslmaths ../mask -mul 26 -Tmean masksum -odt short
+
+/usr/local/fsl/bin/fslmaths masksum -thr 26 -add masksum masksum
+
+/usr/local/fsl/bin/overlay 0 0 -c ../bg_image -a masksum 0.9 52 masksum_overlay
+
+/usr/local/fsl/bin/slicer masksum_overlay -S 2 750 masksum_overlay.png
+
+/usr/local/fsl/bin/fslmaths masksum -mul 0 maskunique
+
+/usr/local/fsl/bin/fslmaths /research/cisc1/projects/critchley_vibe/rs-sbfc/sub-405627/lev_1/task_cluster_2_rA1.feat/reg_standard/mask -mul -1 -add 1 -mul 1 -add maskunique maskunique
+
+/usr/local/fsl/bin/fslmaths /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-427272/lev_1/task_cluster_2_rA1.feat/reg_standard/mask -mul -1 -add 1 -mul 2 -add maskunique maskunique
+
+/usr/local/fsl/bin/fslmaths /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-431537/lev_1/task_cluster_2_rA1.feat/reg_standard/mask -mul -1 -add 1 -mul 3 -add maskunique maskunique
+
+/usr/local/fsl/bin/fslmaths /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-431996/lev_1/task_cluster_2_rA1.feat/reg_standard/mask -mul -1 -add 1 -mul 4 -add maskunique maskunique
+
+/usr/local/fsl/bin/fslmaths /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-432672/lev_1/task_cluster_2_rA1.feat/reg_standard/mask -mul -1 -add 1 -mul 5 -add maskunique maskunique
+
+/usr/local/fsl/bin/fslmaths /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-454395/lev_1/task_cluster_2_rA1.feat/reg_standard/mask -mul -1 -add 1 -mul 6 -add maskunique maskunique
+
+/usr/local/fsl/bin/fslmaths /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-502603/lev_1/task_cluster_2_rA1.feat/reg_standard/mask -mul -1 -add 1 -mul 7 -add maskunique maskunique
+
+/usr/local/fsl/bin/fslmaths /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-505145/lev_1/task_cluster_2_rA1.feat/reg_standard/mask -mul -1 -add 1 -mul 8 -add maskunique maskunique
+
+/usr/local/fsl/bin/fslmaths /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-509886/lev_1/task_cluster_2_rA1.feat/reg_standard/mask -mul -1 -add 1 -mul 9 -add maskunique maskunique
+
+/usr/local/fsl/bin/fslmaths /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-517878/lev_1/task_cluster_2_rA1.feat/reg_standard/mask -mul -1 -add 1 -mul 10 -add maskunique maskunique
+
+/usr/local/fsl/bin/fslmaths /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-519292/lev_1/task_cluster_2_rA1.feat/reg_standard/mask -mul -1 -add 1 -mul 11 -add maskunique maskunique
+
+/usr/local/fsl/bin/fslmaths /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-532224/lev_1/task_cluster_2_rA1.feat/reg_standard/mask -mul -1 -add 1 -mul 12 -add maskunique maskunique
+
+/usr/local/fsl/bin/fslmaths /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-537166/lev_1/task_cluster_2_rA1.feat/reg_standard/mask -mul -1 -add 1 -mul 13 -add maskunique maskunique
+
+/usr/local/fsl/bin/fslmaths /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-543052/lev_1/task_cluster_2_rA1.feat/reg_standard/mask -mul -1 -add 1 -mul 14 -add maskunique maskunique
+
+/usr/local/fsl/bin/fslmaths /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-564947/lev_1/task_cluster_2_rA1.feat/reg_standard/mask -mul -1 -add 1 -mul 15 -add maskunique maskunique
+
+/usr/local/fsl/bin/fslmaths /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-578243/lev_1/task_cluster_2_rA1.feat/reg_standard/mask -mul -1 -add 1 -mul 16 -add maskunique maskunique
+
+/usr/local/fsl/bin/fslmaths /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-578336/lev_1/task_cluster_2_rA1.feat/reg_standard/mask -mul -1 -add 1 -mul 17 -add maskunique maskunique
+
+/usr/local/fsl/bin/fslmaths /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-582656/lev_1/task_cluster_2_rA1.feat/reg_standard/mask -mul -1 -add 1 -mul 18 -add maskunique maskunique
+
+/usr/local/fsl/bin/fslmaths /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-590716/lev_1/task_cluster_2_rA1.feat/reg_standard/mask -mul -1 -add 1 -mul 19 -add maskunique maskunique
+
+/usr/local/fsl/bin/fslmaths /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-615987/lev_1/task_cluster_2_rA1.feat/reg_standard/mask -mul -1 -add 1 -mul 20 -add maskunique maskunique
+
+/usr/local/fsl/bin/fslmaths /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-627475/lev_1/task_cluster_2_rA1.feat/reg_standard/mask -mul -1 -add 1 -mul 21 -add maskunique maskunique
+
+/usr/local/fsl/bin/fslmaths /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-632010/lev_1/task_cluster_2_rA1.feat/reg_standard/mask -mul -1 -add 1 -mul 22 -add maskunique maskunique
+
+/usr/local/fsl/bin/fslmaths /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-647760/lev_1/task_cluster_2_rA1.feat/reg_standard/mask -mul -1 -add 1 -mul 23 -add maskunique maskunique
+
+/usr/local/fsl/bin/fslmaths /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-660783/lev_1/task_cluster_2_rA1.feat/reg_standard/mask -mul -1 -add 1 -mul 24 -add maskunique maskunique
+
+/usr/local/fsl/bin/fslmaths /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-663544/lev_1/task_cluster_2_rA1.feat/reg_standard/mask -mul -1 -add 1 -mul 25 -add maskunique maskunique
+
+/usr/local/fsl/bin/fslmaths /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-687197/lev_1/task_cluster_2_rA1.feat/reg_standard/mask -mul -1 -add 1 -mul 26 -add maskunique maskunique
+
+/usr/local/fsl/bin/fslmaths masksum -thr 25 -uthr 25 -bin -mul maskunique maskunique
+
+/usr/local/fsl/bin/overlay 0 0 ../bg_image -a maskunique 0.9 26 maskunique_overlay
+
+/usr/local/fsl/bin/slicer maskunique_overlay -S 2 750 maskunique_overlay.png
+
+/bin/cp /usr/local/fsl/etc/luts/ramp.gif .ramp.gif
+
+/usr/local/fsl/bin/fslmaths mask -Tmin mask
+
+/usr/local/fsl/bin/fslmerge -t mean_func  /research/cisc1/projects/critchley_vibe/rs-sbfc/sub-405627/lev_1/task_cluster_2_rA1.feat/reg_standard/mean_func /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-427272/lev_1/task_cluster_2_rA1.feat/reg_standard/mean_func /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-431537/lev_1/task_cluster_2_rA1.feat/reg_standard/mean_func /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-431996/lev_1/task_cluster_2_rA1.feat/reg_standard/mean_func /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-432672/lev_1/task_cluster_2_rA1.feat/reg_standard/mean_func /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-454395/lev_1/task_cluster_2_rA1.feat/reg_standard/mean_func /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-502603/lev_1/task_cluster_2_rA1.feat/reg_standard/mean_func /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-505145/lev_1/task_cluster_2_rA1.feat/reg_standard/mean_func /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-509886/lev_1/task_cluster_2_rA1.feat/reg_standard/mean_func /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-517878/lev_1/task_cluster_2_rA1.feat/reg_standard/mean_func /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-519292/lev_1/task_cluster_2_rA1.feat/reg_standard/mean_func /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-532224/lev_1/task_cluster_2_rA1.feat/reg_standard/mean_func /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-537166/lev_1/task_cluster_2_rA1.feat/reg_standard/mean_func /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-543052/lev_1/task_cluster_2_rA1.feat/reg_standard/mean_func /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-564947/lev_1/task_cluster_2_rA1.feat/reg_standard/mean_func /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-578243/lev_1/task_cluster_2_rA1.feat/reg_standard/mean_func /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-578336/lev_1/task_cluster_2_rA1.feat/reg_standard/mean_func /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-582656/lev_1/task_cluster_2_rA1.feat/reg_standard/mean_func /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-590716/lev_1/task_cluster_2_rA1.feat/reg_standard/mean_func /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-615987/lev_1/task_cluster_2_rA1.feat/reg_standard/mean_func /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-627475/lev_1/task_cluster_2_rA1.feat/reg_standard/mean_func /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-632010/lev_1/task_cluster_2_rA1.feat/reg_standard/mean_func /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-647760/lev_1/task_cluster_2_rA1.feat/reg_standard/mean_func /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-660783/lev_1/task_cluster_2_rA1.feat/reg_standard/mean_func /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-663544/lev_1/task_cluster_2_rA1.feat/reg_standard/mean_func /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-687197/lev_1/task_cluster_2_rA1.feat/reg_standard/mean_func
+
+/usr/local/fsl/bin/fslmaths mean_func -Tmean mean_func
+
+/usr/local/fsl/bin/fslmerge -t cope1  /research/cisc1/projects/critchley_vibe/rs-sbfc/sub-405627/lev_1/task_cluster_2_rA1.feat/reg_standard/stats/cope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-427272/lev_1/task_cluster_2_rA1.feat/reg_standard/stats/cope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-431537/lev_1/task_cluster_2_rA1.feat/reg_standard/stats/cope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-431996/lev_1/task_cluster_2_rA1.feat/reg_standard/stats/cope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-432672/lev_1/task_cluster_2_rA1.feat/reg_standard/stats/cope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-454395/lev_1/task_cluster_2_rA1.feat/reg_standard/stats/cope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-502603/lev_1/task_cluster_2_rA1.feat/reg_standard/stats/cope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-505145/lev_1/task_cluster_2_rA1.feat/reg_standard/stats/cope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-509886/lev_1/task_cluster_2_rA1.feat/reg_standard/stats/cope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-517878/lev_1/task_cluster_2_rA1.feat/reg_standard/stats/cope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-519292/lev_1/task_cluster_2_rA1.feat/reg_standard/stats/cope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-532224/lev_1/task_cluster_2_rA1.feat/reg_standard/stats/cope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-537166/lev_1/task_cluster_2_rA1.feat/reg_standard/stats/cope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-543052/lev_1/task_cluster_2_rA1.feat/reg_standard/stats/cope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-564947/lev_1/task_cluster_2_rA1.feat/reg_standard/stats/cope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-578243/lev_1/task_cluster_2_rA1.feat/reg_standard/stats/cope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-578336/lev_1/task_cluster_2_rA1.feat/reg_standard/stats/cope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-582656/lev_1/task_cluster_2_rA1.feat/reg_standard/stats/cope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-590716/lev_1/task_cluster_2_rA1.feat/reg_standard/stats/cope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-615987/lev_1/task_cluster_2_rA1.feat/reg_standard/stats/cope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-627475/lev_1/task_cluster_2_rA1.feat/reg_standard/stats/cope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-632010/lev_1/task_cluster_2_rA1.feat/reg_standard/stats/cope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-647760/lev_1/task_cluster_2_rA1.feat/reg_standard/stats/cope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-660783/lev_1/task_cluster_2_rA1.feat/reg_standard/stats/cope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-663544/lev_1/task_cluster_2_rA1.feat/reg_standard/stats/cope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-687197/lev_1/task_cluster_2_rA1.feat/reg_standard/stats/cope1.nii.gz
+
+/usr/local/fsl/bin/fslmaths cope1 -mas mask cope1
+
+echo 9.19335296154 > design.lcon
+
+/usr/local/fsl/bin/fslmerge -t varcope1  /research/cisc1/projects/critchley_vibe/rs-sbfc/sub-405627/lev_1/task_cluster_2_rA1.feat/reg_standard/stats/varcope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-427272/lev_1/task_cluster_2_rA1.feat/reg_standard/stats/varcope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-431537/lev_1/task_cluster_2_rA1.feat/reg_standard/stats/varcope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-431996/lev_1/task_cluster_2_rA1.feat/reg_standard/stats/varcope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-432672/lev_1/task_cluster_2_rA1.feat/reg_standard/stats/varcope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-454395/lev_1/task_cluster_2_rA1.feat/reg_standard/stats/varcope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-502603/lev_1/task_cluster_2_rA1.feat/reg_standard/stats/varcope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-505145/lev_1/task_cluster_2_rA1.feat/reg_standard/stats/varcope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-509886/lev_1/task_cluster_2_rA1.feat/reg_standard/stats/varcope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-517878/lev_1/task_cluster_2_rA1.feat/reg_standard/stats/varcope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-519292/lev_1/task_cluster_2_rA1.feat/reg_standard/stats/varcope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-532224/lev_1/task_cluster_2_rA1.feat/reg_standard/stats/varcope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-537166/lev_1/task_cluster_2_rA1.feat/reg_standard/stats/varcope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-543052/lev_1/task_cluster_2_rA1.feat/reg_standard/stats/varcope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-564947/lev_1/task_cluster_2_rA1.feat/reg_standard/stats/varcope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-578243/lev_1/task_cluster_2_rA1.feat/reg_standard/stats/varcope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-578336/lev_1/task_cluster_2_rA1.feat/reg_standard/stats/varcope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-582656/lev_1/task_cluster_2_rA1.feat/reg_standard/stats/varcope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-590716/lev_1/task_cluster_2_rA1.feat/reg_standard/stats/varcope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-615987/lev_1/task_cluster_2_rA1.feat/reg_standard/stats/varcope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-627475/lev_1/task_cluster_2_rA1.feat/reg_standard/stats/varcope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-632010/lev_1/task_cluster_2_rA1.feat/reg_standard/stats/varcope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-647760/lev_1/task_cluster_2_rA1.feat/reg_standard/stats/varcope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-660783/lev_1/task_cluster_2_rA1.feat/reg_standard/stats/varcope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-663544/lev_1/task_cluster_2_rA1.feat/reg_standard/stats/varcope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-687197/lev_1/task_cluster_2_rA1.feat/reg_standard/stats/varcope1.nii.gz
+
+/usr/local/fsl/bin/fslmaths varcope1 -mas mask varcope1

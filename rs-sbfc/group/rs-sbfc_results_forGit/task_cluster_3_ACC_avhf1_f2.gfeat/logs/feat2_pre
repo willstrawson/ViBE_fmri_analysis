@@ -1,0 +1,535 @@
+</pre><hr>Higher-level input files preparation<br><pre>
+
+/usr/local/fsl/bin/featregapply /research/cisc1/projects/critchley_vibe/rs-sbfc/sub-405627/lev_1/task_cluster_3_ACC.feat
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in example_func -out frgrot_OLCM36 -applyxfm -init reg/example_func2standard.mat -interp spline -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in mean_func -out frgrot_6HfaJU -applyxfm -init reg/example_func2standard.mat -interp spline -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in stats/cope1 -out frgrot_tVSnaM -applyxfm -init reg/example_func2standard.mat -interp trilinear -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in stats/varcope1 -out frgrot_7Nvw3A -applyxfm -init reg/example_func2standard.mat -interp trilinear -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in mask -out frgrot_R3dQsJ -applyxfm -init reg/example_func2standard.mat -interp nearestneighbour -datatype char
+
+
+/usr/local/fsl/bin/featregapply /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-427272/lev_1/task_cluster_3_ACC.feat
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in example_func -out frgrot_ALoj4B -applyxfm -init reg/example_func2standard.mat -interp spline -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in mean_func -out frgrot_qmcgh0 -applyxfm -init reg/example_func2standard.mat -interp spline -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in stats/cope1 -out frgrot_9h4uQ7 -applyxfm -init reg/example_func2standard.mat -interp trilinear -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in stats/varcope1 -out frgrot_hLaFeo -applyxfm -init reg/example_func2standard.mat -interp trilinear -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in mask -out frgrot_obEIyS -applyxfm -init reg/example_func2standard.mat -interp nearestneighbour -datatype char
+
+
+/usr/local/fsl/bin/featregapply /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-431537/lev_1/task_cluster_3_ACC.feat
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in example_func -out frgrot_xj2VmP -applyxfm -init reg/example_func2standard.mat -interp spline -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in mean_func -out frgrot_wYdenb -applyxfm -init reg/example_func2standard.mat -interp spline -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in stats/cope1 -out frgrot_ZwcZBV -applyxfm -init reg/example_func2standard.mat -interp trilinear -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in stats/varcope1 -out frgrot_SEqzTB -applyxfm -init reg/example_func2standard.mat -interp trilinear -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in mask -out frgrot_MvK0RN -applyxfm -init reg/example_func2standard.mat -interp nearestneighbour -datatype char
+
+
+/usr/local/fsl/bin/featregapply /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-431996/lev_1/task_cluster_3_ACC.feat
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in example_func -out frgrot_xZJQFI -applyxfm -init reg/example_func2standard.mat -interp spline -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in mean_func -out frgrot_W40w29 -applyxfm -init reg/example_func2standard.mat -interp spline -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in stats/cope1 -out frgrot_dfi6xr -applyxfm -init reg/example_func2standard.mat -interp trilinear -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in stats/varcope1 -out frgrot_5JvGLt -applyxfm -init reg/example_func2standard.mat -interp trilinear -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in mask -out frgrot_T2RVgy -applyxfm -init reg/example_func2standard.mat -interp nearestneighbour -datatype char
+
+
+/usr/local/fsl/bin/featregapply /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-432672/lev_1/task_cluster_3_ACC.feat
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in example_func -out frgrot_MwKebG -applyxfm -init reg/example_func2standard.mat -interp spline -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in mean_func -out frgrot_3InxCW -applyxfm -init reg/example_func2standard.mat -interp spline -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in stats/cope1 -out frgrot_PAUnEG -applyxfm -init reg/example_func2standard.mat -interp trilinear -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in stats/varcope1 -out frgrot_raB2to -applyxfm -init reg/example_func2standard.mat -interp trilinear -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in mask -out frgrot_tT9YbD -applyxfm -init reg/example_func2standard.mat -interp nearestneighbour -datatype char
+
+
+/usr/local/fsl/bin/featregapply /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-454395/lev_1/task_cluster_3_ACC.feat
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in example_func -out frgrot_kJJJUx -applyxfm -init reg/example_func2standard.mat -interp spline -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in mean_func -out frgrot_5T4F22 -applyxfm -init reg/example_func2standard.mat -interp spline -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in stats/cope1 -out frgrot_nO5Tmw -applyxfm -init reg/example_func2standard.mat -interp trilinear -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in stats/varcope1 -out frgrot_Gb4TQB -applyxfm -init reg/example_func2standard.mat -interp trilinear -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in mask -out frgrot_FxzhpF -applyxfm -init reg/example_func2standard.mat -interp nearestneighbour -datatype char
+
+
+/usr/local/fsl/bin/featregapply /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-502603/lev_1/task_cluster_3_ACC.feat
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in example_func -out frgrot_uTnLNE -applyxfm -init reg/example_func2standard.mat -interp spline -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in mean_func -out frgrot_3Gvtv6 -applyxfm -init reg/example_func2standard.mat -interp spline -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in stats/cope1 -out frgrot_KAKRUG -applyxfm -init reg/example_func2standard.mat -interp trilinear -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in stats/varcope1 -out frgrot_StvUOp -applyxfm -init reg/example_func2standard.mat -interp trilinear -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in mask -out frgrot_kpMLGr -applyxfm -init reg/example_func2standard.mat -interp nearestneighbour -datatype char
+
+
+/usr/local/fsl/bin/featregapply /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-505145/lev_1/task_cluster_3_ACC.feat
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in example_func -out frgrot_Ht3Nhx -applyxfm -init reg/example_func2standard.mat -interp spline -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in mean_func -out frgrot_AMAoqY -applyxfm -init reg/example_func2standard.mat -interp spline -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in stats/cope1 -out frgrot_xFNYtI -applyxfm -init reg/example_func2standard.mat -interp trilinear -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in stats/varcope1 -out frgrot_orh14P -applyxfm -init reg/example_func2standard.mat -interp trilinear -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in mask -out frgrot_p3cvNv -applyxfm -init reg/example_func2standard.mat -interp nearestneighbour -datatype char
+
+
+/usr/local/fsl/bin/featregapply /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-509886/lev_1/task_cluster_3_ACC.feat
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in example_func -out frgrot_5lKnOz -applyxfm -init reg/example_func2standard.mat -interp spline -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in mean_func -out frgrot_gTIMDT -applyxfm -init reg/example_func2standard.mat -interp spline -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in stats/cope1 -out frgrot_yA3VJI -applyxfm -init reg/example_func2standard.mat -interp trilinear -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in stats/varcope1 -out frgrot_QhJdUo -applyxfm -init reg/example_func2standard.mat -interp trilinear -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in mask -out frgrot_XPqjaw -applyxfm -init reg/example_func2standard.mat -interp nearestneighbour -datatype char
+
+
+/usr/local/fsl/bin/featregapply /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-517878/lev_1/task_cluster_3_ACC.feat
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in example_func -out frgrot_ML4Vdv -applyxfm -init reg/example_func2standard.mat -interp spline -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in mean_func -out frgrot_K0qUGW -applyxfm -init reg/example_func2standard.mat -interp spline -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in stats/cope1 -out frgrot_GVxb2X -applyxfm -init reg/example_func2standard.mat -interp trilinear -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in stats/varcope1 -out frgrot_GsB7M8 -applyxfm -init reg/example_func2standard.mat -interp trilinear -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in mask -out frgrot_MGrzig -applyxfm -init reg/example_func2standard.mat -interp nearestneighbour -datatype char
+
+
+/usr/local/fsl/bin/featregapply /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-519292/lev_1/task_cluster_3_ACC.feat
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in example_func -out frgrot_f7jDik -applyxfm -init reg/example_func2standard.mat -interp spline -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in mean_func -out frgrot_BV6l3A -applyxfm -init reg/example_func2standard.mat -interp spline -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in stats/cope1 -out frgrot_A8SJVn -applyxfm -init reg/example_func2standard.mat -interp trilinear -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in stats/varcope1 -out frgrot_9BzN12 -applyxfm -init reg/example_func2standard.mat -interp trilinear -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in mask -out frgrot_cCqcPa -applyxfm -init reg/example_func2standard.mat -interp nearestneighbour -datatype char
+
+
+/usr/local/fsl/bin/featregapply /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-532224/lev_1/task_cluster_3_ACC.feat
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in example_func -out frgrot_xWRuA5 -applyxfm -init reg/example_func2standard.mat -interp spline -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in mean_func -out frgrot_zCujjK -applyxfm -init reg/example_func2standard.mat -interp spline -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in stats/cope1 -out frgrot_LtiDfz -applyxfm -init reg/example_func2standard.mat -interp trilinear -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in stats/varcope1 -out frgrot_6RhHyw -applyxfm -init reg/example_func2standard.mat -interp trilinear -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in mask -out frgrot_chGiwR -applyxfm -init reg/example_func2standard.mat -interp nearestneighbour -datatype char
+
+
+/usr/local/fsl/bin/featregapply /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-537166/lev_1/task_cluster_3_ACC.feat
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in example_func -out frgrot_XJIEBW -applyxfm -init reg/example_func2standard.mat -interp spline -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in mean_func -out frgrot_0reX5y -applyxfm -init reg/example_func2standard.mat -interp spline -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in stats/cope1 -out frgrot_BcEb5j -applyxfm -init reg/example_func2standard.mat -interp trilinear -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in stats/varcope1 -out frgrot_ArALp5 -applyxfm -init reg/example_func2standard.mat -interp trilinear -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in mask -out frgrot_KKXoLz -applyxfm -init reg/example_func2standard.mat -interp nearestneighbour -datatype char
+
+
+/usr/local/fsl/bin/featregapply /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-543052/lev_1/task_cluster_3_ACC.feat
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in example_func -out frgrot_65hIut -applyxfm -init reg/example_func2standard.mat -interp spline -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in mean_func -out frgrot_Hhe0vU -applyxfm -init reg/example_func2standard.mat -interp spline -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in stats/cope1 -out frgrot_YmidZY -applyxfm -init reg/example_func2standard.mat -interp trilinear -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in stats/varcope1 -out frgrot_ZW8qNb -applyxfm -init reg/example_func2standard.mat -interp trilinear -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in mask -out frgrot_rhyySh -applyxfm -init reg/example_func2standard.mat -interp nearestneighbour -datatype char
+
+
+/usr/local/fsl/bin/featregapply /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-564947/lev_1/task_cluster_3_ACC.feat
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in example_func -out frgrot_QTT5ke -applyxfm -init reg/example_func2standard.mat -interp spline -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in mean_func -out frgrot_BSrynv -applyxfm -init reg/example_func2standard.mat -interp spline -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in stats/cope1 -out frgrot_1MGoDo -applyxfm -init reg/example_func2standard.mat -interp trilinear -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in stats/varcope1 -out frgrot_pIHIe2 -applyxfm -init reg/example_func2standard.mat -interp trilinear -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in mask -out frgrot_FYobRn -applyxfm -init reg/example_func2standard.mat -interp nearestneighbour -datatype char
+
+
+/usr/local/fsl/bin/featregapply /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-578243/lev_1/task_cluster_3_ACC.feat
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in example_func -out frgrot_R64HSi -applyxfm -init reg/example_func2standard.mat -interp spline -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in mean_func -out frgrot_rKptmK -applyxfm -init reg/example_func2standard.mat -interp spline -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in stats/cope1 -out frgrot_vRkeOO -applyxfm -init reg/example_func2standard.mat -interp trilinear -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in stats/varcope1 -out frgrot_seu705 -applyxfm -init reg/example_func2standard.mat -interp trilinear -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in mask -out frgrot_cRM5fo -applyxfm -init reg/example_func2standard.mat -interp nearestneighbour -datatype char
+
+
+/usr/local/fsl/bin/featregapply /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-578336/lev_1/task_cluster_3_ACC.feat
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in example_func -out frgrot_Pxy2Rj -applyxfm -init reg/example_func2standard.mat -interp spline -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in mean_func -out frgrot_6RYbhO -applyxfm -init reg/example_func2standard.mat -interp spline -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in stats/cope1 -out frgrot_eK0Xop -applyxfm -init reg/example_func2standard.mat -interp trilinear -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in stats/varcope1 -out frgrot_wz1UKh -applyxfm -init reg/example_func2standard.mat -interp trilinear -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in mask -out frgrot_tei4wm -applyxfm -init reg/example_func2standard.mat -interp nearestneighbour -datatype char
+
+
+/usr/local/fsl/bin/featregapply /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-582656/lev_1/task_cluster_3_ACC.feat
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in example_func -out frgrot_Md0nsh -applyxfm -init reg/example_func2standard.mat -interp spline -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in mean_func -out frgrot_6ReHvC -applyxfm -init reg/example_func2standard.mat -interp spline -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in stats/cope1 -out frgrot_qS71Go -applyxfm -init reg/example_func2standard.mat -interp trilinear -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in stats/varcope1 -out frgrot_JGfy3b -applyxfm -init reg/example_func2standard.mat -interp trilinear -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in mask -out frgrot_IpIBYQ -applyxfm -init reg/example_func2standard.mat -interp nearestneighbour -datatype char
+
+
+/usr/local/fsl/bin/featregapply /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-590716/lev_1/task_cluster_3_ACC.feat
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in example_func -out frgrot_WJaTN2 -applyxfm -init reg/example_func2standard.mat -interp spline -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in mean_func -out frgrot_zsyOtC -applyxfm -init reg/example_func2standard.mat -interp spline -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in stats/cope1 -out frgrot_ltecmf -applyxfm -init reg/example_func2standard.mat -interp trilinear -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in stats/varcope1 -out frgrot_QcwxlX -applyxfm -init reg/example_func2standard.mat -interp trilinear -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in mask -out frgrot_fMRoR6 -applyxfm -init reg/example_func2standard.mat -interp nearestneighbour -datatype char
+
+
+/usr/local/fsl/bin/featregapply /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-615987/lev_1/task_cluster_3_ACC.feat
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in example_func -out frgrot_wbPJT2 -applyxfm -init reg/example_func2standard.mat -interp spline -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in mean_func -out frgrot_4jLyLt -applyxfm -init reg/example_func2standard.mat -interp spline -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in stats/cope1 -out frgrot_i7aqE6 -applyxfm -init reg/example_func2standard.mat -interp trilinear -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in stats/varcope1 -out frgrot_bVrlvW -applyxfm -init reg/example_func2standard.mat -interp trilinear -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in mask -out frgrot_t4OpQH -applyxfm -init reg/example_func2standard.mat -interp nearestneighbour -datatype char
+
+
+/usr/local/fsl/bin/featregapply /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-627475/lev_1/task_cluster_3_ACC.feat
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in example_func -out frgrot_hO1Kb8 -applyxfm -init reg/example_func2standard.mat -interp spline -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in mean_func -out frgrot_4pZNBs -applyxfm -init reg/example_func2standard.mat -interp spline -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in stats/cope1 -out frgrot_6bS0Oc -applyxfm -init reg/example_func2standard.mat -interp trilinear -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in stats/varcope1 -out frgrot_L43AVU -applyxfm -init reg/example_func2standard.mat -interp trilinear -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in mask -out frgrot_0K0JdY -applyxfm -init reg/example_func2standard.mat -interp nearestneighbour -datatype char
+
+
+/usr/local/fsl/bin/featregapply /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-632010/lev_1/task_cluster_3_ACC.feat
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in example_func -out frgrot_cRZVWX -applyxfm -init reg/example_func2standard.mat -interp spline -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in mean_func -out frgrot_nvyIvt -applyxfm -init reg/example_func2standard.mat -interp spline -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in stats/cope1 -out frgrot_Iz1Nd3 -applyxfm -init reg/example_func2standard.mat -interp trilinear -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in stats/varcope1 -out frgrot_9JmjOZ -applyxfm -init reg/example_func2standard.mat -interp trilinear -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in mask -out frgrot_WNlvlN -applyxfm -init reg/example_func2standard.mat -interp nearestneighbour -datatype char
+
+
+/usr/local/fsl/bin/featregapply /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-647760/lev_1/task_cluster_3_ACC.feat
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in example_func -out frgrot_VlebAO -applyxfm -init reg/example_func2standard.mat -interp spline -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in mean_func -out frgrot_kXue48 -applyxfm -init reg/example_func2standard.mat -interp spline -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in stats/cope1 -out frgrot_ZSW4UV -applyxfm -init reg/example_func2standard.mat -interp trilinear -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in stats/varcope1 -out frgrot_C8xlHA -applyxfm -init reg/example_func2standard.mat -interp trilinear -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in mask -out frgrot_ACuBlF -applyxfm -init reg/example_func2standard.mat -interp nearestneighbour -datatype char
+
+
+/usr/local/fsl/bin/featregapply /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-660783/lev_1/task_cluster_3_ACC.feat
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in example_func -out frgrot_mCzLKD -applyxfm -init reg/example_func2standard.mat -interp spline -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in mean_func -out frgrot_Q1nk91 -applyxfm -init reg/example_func2standard.mat -interp spline -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in stats/cope1 -out frgrot_67iVmE -applyxfm -init reg/example_func2standard.mat -interp trilinear -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in stats/varcope1 -out frgrot_HFiHym -applyxfm -init reg/example_func2standard.mat -interp trilinear -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in mask -out frgrot_Vw1jpL -applyxfm -init reg/example_func2standard.mat -interp nearestneighbour -datatype char
+
+
+/usr/local/fsl/bin/featregapply /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-663544/lev_1/task_cluster_3_ACC.feat
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in example_func -out frgrot_0EDj8h -applyxfm -init reg/example_func2standard.mat -interp spline -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in mean_func -out frgrot_PHWyML -applyxfm -init reg/example_func2standard.mat -interp spline -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in stats/cope1 -out frgrot_Xn3gez -applyxfm -init reg/example_func2standard.mat -interp trilinear -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in stats/varcope1 -out frgrot_XkEoyl -applyxfm -init reg/example_func2standard.mat -interp trilinear -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in mask -out frgrot_nlI9pr -applyxfm -init reg/example_func2standard.mat -interp nearestneighbour -datatype char
+
+
+/usr/local/fsl/bin/featregapply /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-687197/lev_1/task_cluster_3_ACC.feat
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in example_func -out frgrot_SBKk6l -applyxfm -init reg/example_func2standard.mat -interp spline -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in mean_func -out frgrot_y1dyJN -applyxfm -init reg/example_func2standard.mat -interp spline -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in stats/cope1 -out frgrot_iKXRLo -applyxfm -init reg/example_func2standard.mat -interp trilinear -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in stats/varcope1 -out frgrot_uthvU6 -applyxfm -init reg/example_func2standard.mat -interp trilinear -datatype float
+
+
+/usr/local/fsl/bin/flirt -ref reg/standard -in mask -out frgrot_ljRawf -applyxfm -init reg/example_func2standard.mat -interp nearestneighbour -datatype char
+
+
+/usr/local/fsl/bin/fslmaths /research/cisc1/projects/critchley_vibe/rs-sbfc/sub-405627/lev_1/task_cluster_3_ACC.feat/reg/standard bg_image
+
+/usr/local/fsl/bin/fslmerge -t mask  /research/cisc1/projects/critchley_vibe/rs-sbfc/sub-405627/lev_1/task_cluster_3_ACC.feat/reg_standard/mask /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-427272/lev_1/task_cluster_3_ACC.feat/reg_standard/mask /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-431537/lev_1/task_cluster_3_ACC.feat/reg_standard/mask /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-431996/lev_1/task_cluster_3_ACC.feat/reg_standard/mask /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-432672/lev_1/task_cluster_3_ACC.feat/reg_standard/mask /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-454395/lev_1/task_cluster_3_ACC.feat/reg_standard/mask /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-502603/lev_1/task_cluster_3_ACC.feat/reg_standard/mask /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-505145/lev_1/task_cluster_3_ACC.feat/reg_standard/mask /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-509886/lev_1/task_cluster_3_ACC.feat/reg_standard/mask /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-517878/lev_1/task_cluster_3_ACC.feat/reg_standard/mask /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-519292/lev_1/task_cluster_3_ACC.feat/reg_standard/mask /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-532224/lev_1/task_cluster_3_ACC.feat/reg_standard/mask /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-537166/lev_1/task_cluster_3_ACC.feat/reg_standard/mask /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-543052/lev_1/task_cluster_3_ACC.feat/reg_standard/mask /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-564947/lev_1/task_cluster_3_ACC.feat/reg_standard/mask /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-578243/lev_1/task_cluster_3_ACC.feat/reg_standard/mask /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-578336/lev_1/task_cluster_3_ACC.feat/reg_standard/mask /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-582656/lev_1/task_cluster_3_ACC.feat/reg_standard/mask /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-590716/lev_1/task_cluster_3_ACC.feat/reg_standard/mask /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-615987/lev_1/task_cluster_3_ACC.feat/reg_standard/mask /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-627475/lev_1/task_cluster_3_ACC.feat/reg_standard/mask /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-632010/lev_1/task_cluster_3_ACC.feat/reg_standard/mask /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-647760/lev_1/task_cluster_3_ACC.feat/reg_standard/mask /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-660783/lev_1/task_cluster_3_ACC.feat/reg_standard/mask /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-663544/lev_1/task_cluster_3_ACC.feat/reg_standard/mask /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-687197/lev_1/task_cluster_3_ACC.feat/reg_standard/mask
+
+mkdir -p inputreg
+
+/usr/local/fsl/bin/fslmaths ../mask -mul 26 -Tmean masksum -odt short
+
+/usr/local/fsl/bin/fslmaths masksum -thr 26 -add masksum masksum
+
+/usr/local/fsl/bin/overlay 0 0 -c ../bg_image -a masksum 0.9 52 masksum_overlay
+
+/usr/local/fsl/bin/slicer masksum_overlay -S 2 750 masksum_overlay.png
+
+/usr/local/fsl/bin/fslmaths masksum -mul 0 maskunique
+
+/usr/local/fsl/bin/fslmaths /research/cisc1/projects/critchley_vibe/rs-sbfc/sub-405627/lev_1/task_cluster_3_ACC.feat/reg_standard/mask -mul -1 -add 1 -mul 1 -add maskunique maskunique
+
+/usr/local/fsl/bin/fslmaths /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-427272/lev_1/task_cluster_3_ACC.feat/reg_standard/mask -mul -1 -add 1 -mul 2 -add maskunique maskunique
+
+/usr/local/fsl/bin/fslmaths /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-431537/lev_1/task_cluster_3_ACC.feat/reg_standard/mask -mul -1 -add 1 -mul 3 -add maskunique maskunique
+
+/usr/local/fsl/bin/fslmaths /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-431996/lev_1/task_cluster_3_ACC.feat/reg_standard/mask -mul -1 -add 1 -mul 4 -add maskunique maskunique
+
+/usr/local/fsl/bin/fslmaths /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-432672/lev_1/task_cluster_3_ACC.feat/reg_standard/mask -mul -1 -add 1 -mul 5 -add maskunique maskunique
+
+/usr/local/fsl/bin/fslmaths /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-454395/lev_1/task_cluster_3_ACC.feat/reg_standard/mask -mul -1 -add 1 -mul 6 -add maskunique maskunique
+
+/usr/local/fsl/bin/fslmaths /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-502603/lev_1/task_cluster_3_ACC.feat/reg_standard/mask -mul -1 -add 1 -mul 7 -add maskunique maskunique
+
+/usr/local/fsl/bin/fslmaths /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-505145/lev_1/task_cluster_3_ACC.feat/reg_standard/mask -mul -1 -add 1 -mul 8 -add maskunique maskunique
+
+/usr/local/fsl/bin/fslmaths /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-509886/lev_1/task_cluster_3_ACC.feat/reg_standard/mask -mul -1 -add 1 -mul 9 -add maskunique maskunique
+
+/usr/local/fsl/bin/fslmaths /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-517878/lev_1/task_cluster_3_ACC.feat/reg_standard/mask -mul -1 -add 1 -mul 10 -add maskunique maskunique
+
+/usr/local/fsl/bin/fslmaths /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-519292/lev_1/task_cluster_3_ACC.feat/reg_standard/mask -mul -1 -add 1 -mul 11 -add maskunique maskunique
+
+/usr/local/fsl/bin/fslmaths /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-532224/lev_1/task_cluster_3_ACC.feat/reg_standard/mask -mul -1 -add 1 -mul 12 -add maskunique maskunique
+
+/usr/local/fsl/bin/fslmaths /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-537166/lev_1/task_cluster_3_ACC.feat/reg_standard/mask -mul -1 -add 1 -mul 13 -add maskunique maskunique
+
+/usr/local/fsl/bin/fslmaths /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-543052/lev_1/task_cluster_3_ACC.feat/reg_standard/mask -mul -1 -add 1 -mul 14 -add maskunique maskunique
+
+/usr/local/fsl/bin/fslmaths /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-564947/lev_1/task_cluster_3_ACC.feat/reg_standard/mask -mul -1 -add 1 -mul 15 -add maskunique maskunique
+
+/usr/local/fsl/bin/fslmaths /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-578243/lev_1/task_cluster_3_ACC.feat/reg_standard/mask -mul -1 -add 1 -mul 16 -add maskunique maskunique
+
+/usr/local/fsl/bin/fslmaths /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-578336/lev_1/task_cluster_3_ACC.feat/reg_standard/mask -mul -1 -add 1 -mul 17 -add maskunique maskunique
+
+/usr/local/fsl/bin/fslmaths /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-582656/lev_1/task_cluster_3_ACC.feat/reg_standard/mask -mul -1 -add 1 -mul 18 -add maskunique maskunique
+
+/usr/local/fsl/bin/fslmaths /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-590716/lev_1/task_cluster_3_ACC.feat/reg_standard/mask -mul -1 -add 1 -mul 19 -add maskunique maskunique
+
+/usr/local/fsl/bin/fslmaths /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-615987/lev_1/task_cluster_3_ACC.feat/reg_standard/mask -mul -1 -add 1 -mul 20 -add maskunique maskunique
+
+/usr/local/fsl/bin/fslmaths /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-627475/lev_1/task_cluster_3_ACC.feat/reg_standard/mask -mul -1 -add 1 -mul 21 -add maskunique maskunique
+
+/usr/local/fsl/bin/fslmaths /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-632010/lev_1/task_cluster_3_ACC.feat/reg_standard/mask -mul -1 -add 1 -mul 22 -add maskunique maskunique
+
+/usr/local/fsl/bin/fslmaths /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-647760/lev_1/task_cluster_3_ACC.feat/reg_standard/mask -mul -1 -add 1 -mul 23 -add maskunique maskunique
+
+/usr/local/fsl/bin/fslmaths /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-660783/lev_1/task_cluster_3_ACC.feat/reg_standard/mask -mul -1 -add 1 -mul 24 -add maskunique maskunique
+
+/usr/local/fsl/bin/fslmaths /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-663544/lev_1/task_cluster_3_ACC.feat/reg_standard/mask -mul -1 -add 1 -mul 25 -add maskunique maskunique
+
+/usr/local/fsl/bin/fslmaths /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-687197/lev_1/task_cluster_3_ACC.feat/reg_standard/mask -mul -1 -add 1 -mul 26 -add maskunique maskunique
+
+/usr/local/fsl/bin/fslmaths masksum -thr 25 -uthr 25 -bin -mul maskunique maskunique
+
+/usr/local/fsl/bin/overlay 0 0 ../bg_image -a maskunique 0.9 26 maskunique_overlay
+
+/usr/local/fsl/bin/slicer maskunique_overlay -S 2 750 maskunique_overlay.png
+
+/bin/cp /usr/local/fsl/etc/luts/ramp.gif .ramp.gif
+
+/usr/local/fsl/bin/fslmaths mask -Tmin mask
+
+/usr/local/fsl/bin/fslmerge -t mean_func  /research/cisc1/projects/critchley_vibe/rs-sbfc/sub-405627/lev_1/task_cluster_3_ACC.feat/reg_standard/mean_func /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-427272/lev_1/task_cluster_3_ACC.feat/reg_standard/mean_func /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-431537/lev_1/task_cluster_3_ACC.feat/reg_standard/mean_func /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-431996/lev_1/task_cluster_3_ACC.feat/reg_standard/mean_func /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-432672/lev_1/task_cluster_3_ACC.feat/reg_standard/mean_func /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-454395/lev_1/task_cluster_3_ACC.feat/reg_standard/mean_func /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-502603/lev_1/task_cluster_3_ACC.feat/reg_standard/mean_func /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-505145/lev_1/task_cluster_3_ACC.feat/reg_standard/mean_func /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-509886/lev_1/task_cluster_3_ACC.feat/reg_standard/mean_func /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-517878/lev_1/task_cluster_3_ACC.feat/reg_standard/mean_func /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-519292/lev_1/task_cluster_3_ACC.feat/reg_standard/mean_func /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-532224/lev_1/task_cluster_3_ACC.feat/reg_standard/mean_func /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-537166/lev_1/task_cluster_3_ACC.feat/reg_standard/mean_func /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-543052/lev_1/task_cluster_3_ACC.feat/reg_standard/mean_func /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-564947/lev_1/task_cluster_3_ACC.feat/reg_standard/mean_func /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-578243/lev_1/task_cluster_3_ACC.feat/reg_standard/mean_func /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-578336/lev_1/task_cluster_3_ACC.feat/reg_standard/mean_func /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-582656/lev_1/task_cluster_3_ACC.feat/reg_standard/mean_func /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-590716/lev_1/task_cluster_3_ACC.feat/reg_standard/mean_func /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-615987/lev_1/task_cluster_3_ACC.feat/reg_standard/mean_func /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-627475/lev_1/task_cluster_3_ACC.feat/reg_standard/mean_func /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-632010/lev_1/task_cluster_3_ACC.feat/reg_standard/mean_func /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-647760/lev_1/task_cluster_3_ACC.feat/reg_standard/mean_func /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-660783/lev_1/task_cluster_3_ACC.feat/reg_standard/mean_func /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-663544/lev_1/task_cluster_3_ACC.feat/reg_standard/mean_func /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-687197/lev_1/task_cluster_3_ACC.feat/reg_standard/mean_func
+
+/usr/local/fsl/bin/fslmaths mean_func -Tmean mean_func
+
+/usr/local/fsl/bin/fslmerge -t cope1  /research/cisc1/projects/critchley_vibe/rs-sbfc/sub-405627/lev_1/task_cluster_3_ACC.feat/reg_standard/stats/cope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-427272/lev_1/task_cluster_3_ACC.feat/reg_standard/stats/cope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-431537/lev_1/task_cluster_3_ACC.feat/reg_standard/stats/cope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-431996/lev_1/task_cluster_3_ACC.feat/reg_standard/stats/cope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-432672/lev_1/task_cluster_3_ACC.feat/reg_standard/stats/cope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-454395/lev_1/task_cluster_3_ACC.feat/reg_standard/stats/cope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-502603/lev_1/task_cluster_3_ACC.feat/reg_standard/stats/cope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-505145/lev_1/task_cluster_3_ACC.feat/reg_standard/stats/cope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-509886/lev_1/task_cluster_3_ACC.feat/reg_standard/stats/cope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-517878/lev_1/task_cluster_3_ACC.feat/reg_standard/stats/cope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-519292/lev_1/task_cluster_3_ACC.feat/reg_standard/stats/cope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-532224/lev_1/task_cluster_3_ACC.feat/reg_standard/stats/cope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-537166/lev_1/task_cluster_3_ACC.feat/reg_standard/stats/cope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-543052/lev_1/task_cluster_3_ACC.feat/reg_standard/stats/cope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-564947/lev_1/task_cluster_3_ACC.feat/reg_standard/stats/cope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-578243/lev_1/task_cluster_3_ACC.feat/reg_standard/stats/cope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-578336/lev_1/task_cluster_3_ACC.feat/reg_standard/stats/cope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-582656/lev_1/task_cluster_3_ACC.feat/reg_standard/stats/cope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-590716/lev_1/task_cluster_3_ACC.feat/reg_standard/stats/cope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-615987/lev_1/task_cluster_3_ACC.feat/reg_standard/stats/cope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-627475/lev_1/task_cluster_3_ACC.feat/reg_standard/stats/cope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-632010/lev_1/task_cluster_3_ACC.feat/reg_standard/stats/cope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-647760/lev_1/task_cluster_3_ACC.feat/reg_standard/stats/cope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-660783/lev_1/task_cluster_3_ACC.feat/reg_standard/stats/cope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-663544/lev_1/task_cluster_3_ACC.feat/reg_standard/stats/cope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-687197/lev_1/task_cluster_3_ACC.feat/reg_standard/stats/cope1.nii.gz
+
+/usr/local/fsl/bin/fslmaths cope1 -mas mask cope1
+
+echo 9.40795976923 > design.lcon
+
+/usr/local/fsl/bin/fslmerge -t varcope1  /research/cisc1/projects/critchley_vibe/rs-sbfc/sub-405627/lev_1/task_cluster_3_ACC.feat/reg_standard/stats/varcope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-427272/lev_1/task_cluster_3_ACC.feat/reg_standard/stats/varcope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-431537/lev_1/task_cluster_3_ACC.feat/reg_standard/stats/varcope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-431996/lev_1/task_cluster_3_ACC.feat/reg_standard/stats/varcope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-432672/lev_1/task_cluster_3_ACC.feat/reg_standard/stats/varcope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-454395/lev_1/task_cluster_3_ACC.feat/reg_standard/stats/varcope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-502603/lev_1/task_cluster_3_ACC.feat/reg_standard/stats/varcope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-505145/lev_1/task_cluster_3_ACC.feat/reg_standard/stats/varcope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-509886/lev_1/task_cluster_3_ACC.feat/reg_standard/stats/varcope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-517878/lev_1/task_cluster_3_ACC.feat/reg_standard/stats/varcope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-519292/lev_1/task_cluster_3_ACC.feat/reg_standard/stats/varcope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-532224/lev_1/task_cluster_3_ACC.feat/reg_standard/stats/varcope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-537166/lev_1/task_cluster_3_ACC.feat/reg_standard/stats/varcope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-543052/lev_1/task_cluster_3_ACC.feat/reg_standard/stats/varcope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-564947/lev_1/task_cluster_3_ACC.feat/reg_standard/stats/varcope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-578243/lev_1/task_cluster_3_ACC.feat/reg_standard/stats/varcope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-578336/lev_1/task_cluster_3_ACC.feat/reg_standard/stats/varcope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-582656/lev_1/task_cluster_3_ACC.feat/reg_standard/stats/varcope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-590716/lev_1/task_cluster_3_ACC.feat/reg_standard/stats/varcope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-615987/lev_1/task_cluster_3_ACC.feat/reg_standard/stats/varcope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-627475/lev_1/task_cluster_3_ACC.feat/reg_standard/stats/varcope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-632010/lev_1/task_cluster_3_ACC.feat/reg_standard/stats/varcope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-647760/lev_1/task_cluster_3_ACC.feat/reg_standard/stats/varcope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-660783/lev_1/task_cluster_3_ACC.feat/reg_standard/stats/varcope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-663544/lev_1/task_cluster_3_ACC.feat/reg_standard/stats/varcope1.nii.gz /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/rs-sbfc/sub-687197/lev_1/task_cluster_3_ACC.feat/reg_standard/stats/varcope1.nii.gz
+
+/usr/local/fsl/bin/fslmaths varcope1 -mas mask varcope1

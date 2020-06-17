@@ -1,0 +1,28 @@
+
+/bin/cp /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/fsfs/template_rest/group_fsfs/task_cluster_2_rA1/rs-sbfc_group_avhf1_f2.fsf design.fsf
+
+/usr/local/fsl/bin/feat_model design
+
+mkdir .files;cp /usr/local/fsl/doc/fsl.css .files;cp -r /usr/local/fsl/doc/images .files/images
+
+/usr/local/fsl/bin/fsl_sub -T 60 -l logs -N feat2_pre   /usr/local/fsl/bin/feat /research/cisc1/projects/critchley_vibe/rs-sbfc/group/task_cluster_2_rA1_avhf1_f2.gfeat/design.fsf -D /research/cisc1/projects/critchley_vibe/rs-sbfc/group/task_cluster_2_rA1_avhf1_f2.gfeat -gfeatprep
+30150
+
+/usr/local/fsl/bin/fsl_sub -T 60 -l logs -N feat3a_flame -j 30150  /usr/local/fsl/bin/feat /research/cisc1/projects/critchley_vibe/rs-sbfc/group/task_cluster_2_rA1_avhf1_f2.gfeat/cope1.feat/design.fsf -D /research/cisc1/projects/critchley_vibe/rs-sbfc/group/task_cluster_2_rA1_avhf1_f2.gfeat/cope1.feat -I 1 -flame1
+10595
+
+/usr/local/fsl/bin/fsl_sub -T 60 -l logs -N feat3b_flame -j 10595 -t ./.flame
+fsl_sub running 12 cores to process 1 tasks: ./.flame
+10787
+
+/usr/local/fsl/bin/fsl_sub -T 60 -l logs -N feat3c_flame -j 10787  /usr/local/fsl/bin/feat /research/cisc1/projects/critchley_vibe/rs-sbfc/group/task_cluster_2_rA1_avhf1_f2.gfeat/cope1.feat/design.fsf -D /research/cisc1/projects/critchley_vibe/rs-sbfc/group/task_cluster_2_rA1_avhf1_f2.gfeat/cope1.feat -flame3
+10948
+
+/usr/local/fsl/bin/fsl_sub -T 60 -l logs -N feat4_post -j 10948  /usr/local/fsl/bin/feat /research/cisc1/projects/critchley_vibe/rs-sbfc/group/task_cluster_2_rA1_avhf1_f2.gfeat/cope1.feat/design.fsf -D /research/cisc1/projects/critchley_vibe/rs-sbfc/group/task_cluster_2_rA1_avhf1_f2.gfeat/cope1.feat -poststats 1
+11014
+
+/usr/local/fsl/bin/fsl_sub -T 1 -l logs -N feat5_stop -j 11014  /usr/local/fsl/bin/feat /research/cisc1/projects/critchley_vibe/rs-sbfc/group/task_cluster_2_rA1_avhf1_f2.gfeat/cope1.feat/design.fsf -D /research/cisc1/projects/critchley_vibe/rs-sbfc/group/task_cluster_2_rA1_avhf1_f2.gfeat/cope1.feat -stop
+11907
+
+/usr/local/fsl/bin/fsl_sub -T 1 -l logs -N feat5_stop -j 11907  /usr/local/fsl/bin/feat /research/cisc1/projects/critchley_vibe/rs-sbfc/group/task_cluster_2_rA1_avhf1_f2.gfeat/cope1.feat/design.fsf -D /research/cisc1/projects/critchley_vibe/rs-sbfc/group/task_cluster_2_rA1_avhf1_f2.gfeat -stop
+12045

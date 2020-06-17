@@ -1,0 +1,12 @@
+/ContrastName1	mean 
+/ContrastName2	avh_intensity 
+/ContrastName3	avh_location 
+/NumWaves	5
+/NumContrasts	3
+/PPheights		1.399180e+00	3.573594e+00	2.915351e+00
+/RequiredEffect		1.445	4.698	3.473
+
+/Matrix
+1.000000e+00 0.000000e+00 0.000000e+00 0.000000e+00 0.000000e+00 
+0.000000e+00 1.000000e+00 0.000000e+00 0.000000e+00 0.000000e+00 
+0.000000e+00 0.000000e+00 1.000000e+00 0.000000e+00 0.000000e+00 

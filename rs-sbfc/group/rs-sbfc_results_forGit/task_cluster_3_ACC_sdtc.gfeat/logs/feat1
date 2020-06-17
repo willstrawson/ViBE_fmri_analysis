@@ -1,0 +1,28 @@
+
+/bin/cp /its/home/ws231/Desktop/cisc1/projects/critchley_vibe/fsfs/template_rest/group_fsfs/task_cluster_3_ACC/rs-sbfc_group_sdt.fsf design.fsf
+
+/usr/local/fsl/bin/feat_model design
+
+mkdir .files;cp /usr/local/fsl/doc/fsl.css .files;cp -r /usr/local/fsl/doc/images .files/images
+
+/usr/local/fsl/bin/fsl_sub -T 60 -l logs -N feat2_pre   /usr/local/fsl/bin/feat /research/cisc1/projects/critchley_vibe/rs-sbfc/group/task_cluster_3_ACC_sdtc.gfeat/design.fsf -D /research/cisc1/projects/critchley_vibe/rs-sbfc/group/task_cluster_3_ACC_sdtc.gfeat -gfeatprep
+22745
+
+/usr/local/fsl/bin/fsl_sub -T 60 -l logs -N feat3a_flame -j 22745  /usr/local/fsl/bin/feat /research/cisc1/projects/critchley_vibe/rs-sbfc/group/task_cluster_3_ACC_sdtc.gfeat/cope1.feat/design.fsf -D /research/cisc1/projects/critchley_vibe/rs-sbfc/group/task_cluster_3_ACC_sdtc.gfeat/cope1.feat -I 1 -flame1
+3442
+
+/usr/local/fsl/bin/fsl_sub -T 60 -l logs -N feat3b_flame -j 3442 -t ./.flame
+fsl_sub running 12 cores to process 1 tasks: ./.flame
+3644
+
+/usr/local/fsl/bin/fsl_sub -T 60 -l logs -N feat3c_flame -j 3644  /usr/local/fsl/bin/feat /research/cisc1/projects/critchley_vibe/rs-sbfc/group/task_cluster_3_ACC_sdtc.gfeat/cope1.feat/design.fsf -D /research/cisc1/projects/critchley_vibe/rs-sbfc/group/task_cluster_3_ACC_sdtc.gfeat/cope1.feat -flame3
+3787
+
+/usr/local/fsl/bin/fsl_sub -T 60 -l logs -N feat4_post -j 3787  /usr/local/fsl/bin/feat /research/cisc1/projects/critchley_vibe/rs-sbfc/group/task_cluster_3_ACC_sdtc.gfeat/cope1.feat/design.fsf -D /research/cisc1/projects/critchley_vibe/rs-sbfc/group/task_cluster_3_ACC_sdtc.gfeat/cope1.feat -poststats 1
+3853
+
+/usr/local/fsl/bin/fsl_sub -T 1 -l logs -N feat5_stop -j 3853  /usr/local/fsl/bin/feat /research/cisc1/projects/critchley_vibe/rs-sbfc/group/task_cluster_3_ACC_sdtc.gfeat/cope1.feat/design.fsf -D /research/cisc1/projects/critchley_vibe/rs-sbfc/group/task_cluster_3_ACC_sdtc.gfeat/cope1.feat -stop
+4927
+
+/usr/local/fsl/bin/fsl_sub -T 1 -l logs -N feat5_stop -j 4927  /usr/local/fsl/bin/feat /research/cisc1/projects/critchley_vibe/rs-sbfc/group/task_cluster_3_ACC_sdtc.gfeat/cope1.feat/design.fsf -D /research/cisc1/projects/critchley_vibe/rs-sbfc/group/task_cluster_3_ACC_sdtc.gfeat -stop
+5065
